@@ -1,0 +1,43 @@
+const PROJECTS = [
+  {
+    id: 1,
+    tag: "Healthcare",
+    tagBg: "#f0f0ff",
+    tagColor: "#4040cc",
+    title: "Dr. Gaikwad",
+    subtitle: "The Smile Architect built beyond dentistry.",
+    imgSrc: "/projects/drgaikwad.jpg",
+    imgFallbackBg: "#f5f0eb",
+    imgFallbackText: "S. Gaikwad",
+    imgFallbackColor: "#c8a882",
+    link: "#",
+  },
+  {
+    id: 2,
+    tag: "Spiritual",
+    tagBg: "#fff5e6",
+    tagColor: "#b06000",
+    title: "Anuved",
+    subtitle: "Tradition reborn for modern devotion.",
+    imgSrc: "/projects/anuved.jpg",
+    imgFallbackBg: "#2a1a0a",
+    imgFallbackText: "अन्वेद",
+    imgFallbackColor: "#d4a055",
+    link: "#",
+  },
+  {
+    id: 3,
+    tag: "Finance",
+    tagBg: "#e8f5e8",
+    tagColor: "#1a6b1a",
+    title: "NAFSCOB",
+    subtitle: "Image engineering for credibility and legacy.",
+    imgSrc: "/projects/nafscob.jpg",
+    imgFallbackBg: "#e8f0ff",
+    imgFallbackText: "NAFSCOB",
+    imgFallbackColor: "#2244aa",
+    link: "#",
+  },
+];
+
+export default PROJECTS;
