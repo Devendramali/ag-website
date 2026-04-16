@@ -1,32 +1,26 @@
 import { useState } from 'react'
 import '../src/assets/font/font.css'
-import Header from './components/Header'
-import Banner from './components/home/Banner'
-import Scrolltext from './components/home/Scrolltext'
-import StackCards from './components/home/StackCards'
-import Contact from './components/home/Contact'
-import AGfream from './components/home/AGfream'
-import Connect from './components/home/Connect'
-import Footer from './components/Footer'
-import Series from './components/home/Series'
-import Gallery from './components/home/Gallery'
-import WorkSection from './components/home/WorkSection'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/pages/Home'
+import Layout from './Layout'
+import WorkWithMe from './components/pages/WorkWithMe'
+import Aos from 'aos'
 
 function App() {
+   Aos.init();
 
   return (
     <>
-     <Header/>
-     <Banner/>
-     <Scrolltext/>
-     <StackCards/>
-     <AGfream/>
-     <Gallery/>
-     <WorkSection/>
-     <Contact/>
-     <Series/>
-     <Connect/>
-     <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path='/work-with-me' element={<WorkWithMe/>} />
+          </Route>
+        </Routes>
+
+      </BrowserRouter>
+
     </>
   )
 }

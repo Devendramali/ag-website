@@ -17,43 +17,45 @@ const StackCards = () => {
 
     const ctx = gsap.context(() => {
 
-      let mm = gsap.matchMedia()
+     let mm = gsap.matchMedia()
 
-      mm.add("(min-width: 992px)", () => {
+mm.add("(min-width: 991px)", () => {
 
-        const cards = gsap.utils.toArray(".cardw")
+  const cards = gsap.utils.toArray(".cardw")
 
-        // Initial position (stacked)
-        gsap.set(cards, {
-          y: (i) => i * 660,
-          zIndex: (i) => cards.length + i
-        })
+  gsap.set(cards, {
+    y: (i) => i * 660,
+    zIndex: (i) => cards.length + i
+  })
 
-        let tl = gsap.timeline({
-          scrollTrigger: {
-            trigger: containerRef.current,
-            start: "top top",
-            end: "bottom bottom",
-            scrub: 1,
-            pin: true,
-          }
-        })
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: containerRef.current,
+      start: "top top",
+      end: "bottom bottom",
+      scrub: 1,
+      pin: true,
+    }
+  })
 
-        cards.forEach((card, i) => {
+  cards.forEach((card, i) => {
+    tl.to(card, {
+      y: 0,
+      duration: 1
+    }, i)
+  })
 
-          tl.to(card, {
-            y: 0,
-            duration: 1
-          }, i)
+})
 
-          if (i !== 0) {
-            tl.to(cards[i - 1], {}, i)
-          }
 
-        })
+// 👉 Reset for small screens
+mm.add("(max-width: 991px)", () => {
+  const cards = gsap.utils.toArray(".cardw")
 
-        ScrollTrigger.refresh()
-      })
+  gsap.set(cards, {
+    clearProps: "all" // removes GSAP inline styles
+  })
+})
 
     }, containerRef)
 

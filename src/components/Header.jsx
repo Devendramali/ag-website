@@ -7,12 +7,12 @@ const Header = () => {
       <div className='header'>
         <div className='head-container'>
           <div className='row'>
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-6 col-sm-2 col-md-2">
               <div className="logo">
                 <img src={logo} alt="" />
               </div>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-md-7">
               <div className="menu">
                 <ul>
                   <li><a href="#!">Brand Soul</a></li>
@@ -21,7 +21,7 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-6 col-sm-6 col-md-3">
               <a href="" className='btn1'>Work With Me</a>
             </div>
 

@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='upperfooter'>
                 <p>Maybe it’s time we build something together.</p>
                 <div className="row">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 col-md-4">
                         <ul>
                             <li><a href="#!">about</a></li>
                             <li><a href="#!">work</a></li>
@@ -16,14 +16,14 @@ const Footer = () => {
                             <li><a href="#!">contact</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-4">
                         <ul>
                             <li><a href="#!">diigiihost</a></li>
                             <li><a href="#!">quote your price</a></li>
                             <li><a href="#!">best rate websites</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4">
                         <ul>
                             <li><a href="#!">instagram</a></li>
                             <li><a href="#!">facebook</a></li>

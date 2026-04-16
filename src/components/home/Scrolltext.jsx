@@ -57,13 +57,13 @@ const Scrolltext = () => {
           <span className="word">obsessed</span>{" "}
           <span className="word">with</span>
 
-          <span className="word"><img src={img1} alt="" /></span>
+          <span className="word"><img src={img1} alt="" /></span>{" "}
 
           <span className="word">virality,</span>{" "}
           <span className="word">I'm</span>{" "}
           <span className="word">obsessed</span>{" "}
           <span className="word">with</span>{" "}
-          <span className="word">depth.</span>
+          <span className="word">depth.</span>{" "}
 
           <span className="word">I</span>{" "}
           <span className="word">believe</span>{" "}
@@ -76,12 +76,12 @@ const Scrolltext = () => {
           <span className="word">built</span>{" "}
           <span className="word">by</span>{" "}
           <span className="word">emotions</span>{" "}
-          <span className="word">that</span>
+          <span className="word">that</span>{" "}
 
-          <span className="word"><img src={img2} alt="" /></span>
+          <span className="word"><img src={img2} alt="" /></span>{" "}
 
           <span className="word">move</span>{" "}
-          <span className="word">people.</span>
+          <span className="word">people.</span>{" "}
 
           <span className="word">That</span>{" "}
           <span className="word">belief</span>{" "}
@@ -92,7 +92,7 @@ const Scrolltext = () => {
           <span className="word">the</span>{" "}
           <span className="word">Brand</span>{" "}
           <span className="word">Soul</span>{" "}
-          <span className="word">Philosophy.</span>
+          <span className="word">Philosophy.</span>{" "}
 
           <span className="word"><img src={img3} alt="" /></span>
 
