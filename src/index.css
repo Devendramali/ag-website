@@ -1776,6 +1776,12 @@ bottom: 124px;
     align-items:start;
     gap: 30px;
   }
+  .stack-wrapper .container .maincard{
+    padding: 60px 30px !important;
+  }
+  .scrolltext{
+    margin-bottom: 0;
+  }
 }
 @media (max-width:930px){
 .home-banner .container h1{
@@ -2067,6 +2073,9 @@ bottom: 124px;
 .upperfooter > div{
   gap: 40px;
 }
+ .stack-wrapper .container .maincard{
+    padding: 60px 15px !important;
+  }
 .lowe p{
   text-align: left;
 }
