@@ -2311,6 +2311,14 @@ bottom: 124px;
        font-size: 73px;
     }
 }
+@media (max-width:375px){
+  .text-2z {
+        font-size: 83px !important;
+    }
+    .home-banner .container h1 {
+       font-size: 107px;
+    }
+}
 @media (max-width:330px){
     .text-2z {
         font-size: 70px !important;
