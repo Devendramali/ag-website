@@ -872,6 +872,9 @@ color: #052C27;
 text-align: center;
 
 }
+.custom-cursor1 h3{
+  background-color: transparent !important;
+}
 .secard2 {
   cursor: none;
 }
@@ -1127,9 +1130,23 @@ box-shadow: 0 4px 10px 0 rgba(5, 44, 39, 0.25);
 }
 .brandsoul .container h3{
   text-align: end;
+  color: var(--grey1, #151515);
+font-family: var(--primary-font);
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 38.4px */
+text-transform: capitalize;
 }
 .brandsoul .container h2{
   text-align: left;
+  color: var(--green, #052C27);
+font-family: var(--primary-font);
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 50.4px */
+text-transform: capitalize;
 }
 .soulcont{
   max-width: 1080px;
@@ -1432,6 +1449,7 @@ font-weight: 500;
 line-height: 140%; /* 22.4px */
 text-transform: capitalize;
 text-align: right;
+margin-top: 15px;
 }
 
 
@@ -1528,8 +1546,15 @@ text-align: right;
     }
 
 
-
-
+ .container1{
+    padding: 0 24px;
+  }
+  .beingwithclarity .container1{
+            padding: 0 130px;
+  }
+ .formhead{
+    padding-left: 0;
+  }
 @media (max-width:1280px) {
   .home-banner .container h1{
     font-size: 275px;
@@ -1537,6 +1562,15 @@ text-align: right;
   .text-2z{
     font-size: 286px !important;
   }
+  .soulcont{
+    max-width: 970px;
+  }
+  .text-cont{
+    justify-content: center;
+    gap: 40px;
+  }
+ 
+ 
 }
 
 @media (max-width:1230px) {
@@ -1762,6 +1796,18 @@ bottom: 124px;
     .scrollslider{
       height: 700px;
     }
+    .container1{
+      padding: 0 15px;
+    }
+    .formhead{
+      padding: 0;
+    }
+    .soulcont{
+      padding: 0 15px;
+    }
+    .workbanner .banner-containt .conth3{
+      padding: 0 30px;
+    }
 }
 @media (max-width:991px){
   .upperfooter{
@@ -1782,6 +1828,63 @@ bottom: 124px;
   .scrolltext{
     margin-bottom: 0;
   }
+  /* ********************************************************************* wwm */
+  .workbanner figure{
+    height: 800px;
+  }
+  .workbanner figure img{
+    object-fit: cover;
+    object-position:  center;
+  }
+  .workbanner .banner-containt .conth3 h3{
+    font-size: 36px;
+  }
+  .soulcontainer{
+    display: none;
+  }
+  .brandsoul .container h3{
+    text-align: left;
+  }
+  .soulcont{
+    padding: 0 30px;
+  }
+  .text-cont p {
+    max-width: 234px;
+  }
+  .tocontainer{
+    padding: 0;
+  }
+  .container1{
+    padding: 0 15px;
+  }
+  .partner .head h4 br{
+     display: none;
+  }
+  .partner .part1 h3{
+        font-size: 23px;
+            line-height: 100%;
+            text-align: center;
+            width: 100%;
+  }
+  .partner .part1.ms-0{
+    padding: 0;
+    text-align: center;
+  }
+  .mt-160 {
+    margin-top: 100px;
+}
+.partnerfoot{
+  font-size: 48px;
+}
+.theengien .partnerfoot{
+  margin-bottom: 100px;
+}
+.formhead{
+  padding: 0;
+}
+.mainthot .btn2{
+  margin-left: auto !important;
+}
 }
 @media (max-width:930px){
 .home-banner .container h1{
@@ -2040,6 +2143,32 @@ bottom: 124px;
   .join .row{
     gap: 40px 0;
   }
+
+
+
+  /* ************************************************************************ */
+  .conth3 .d-flex{
+    flex-direction: column;
+  }
+ 
+  .conversation figure img{
+    width: 100%;
+  }
+  .workbanner .banner-containt .conth3{
+    margin-top: 200px;
+    padding: 0 15px;
+  }
+      .workbanner .banner-containt .conth3 h3 {
+        font-size: 26px;
+        margin-top: 36px;
+        text-align: left;
+    }
+    .conth3 .d-flex{
+      justify-content: center;
+      align-items: left;
+      gap: 20px;
+    }
+  
 }
 
 @media (max-width:540px){
@@ -2085,6 +2214,72 @@ bottom: 124px;
     .cocard h1 {
         font-size: 51px;
     }
+
+
+    /* ***********************************************************************0 */
+    .text-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 0;
+}
+.soulhead h4{
+  text-align: left;
+}
+.soulhead h3{
+  text-align: left;
+}
+ .text-cont figure {
+    order: 1; /* 🔥 move image to top */
+    margin-top: 48px;
+  }
+  .bgvsg {
+    display: none;
+  }
+  .text-cont p{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  .soulcont{
+    margin-top: 96px;
+  }
+  .togater h3{
+    text-align: left;
+  }
+  .togater .glodenborderligit{
+    text-align: left;
+  }
+  .partner .part1 h3{
+    text-align: left;
+  }
+  .partner .part1{
+    margin: 0;
+  }
+  .togater .row{
+    gap: 48px 0;
+  }
+  .partner .row.mt-160 .col-lg-6.col-md-4{
+    order: -1;
+  }
+  .partnerfoot{
+    text-align: left;
+            font-size: 45px;
+            padding: 0 15px;
+  }
+  .conversation{
+    padding-bottom: 60px;
+  }
+  .formhead h2{
+    font-size: 48px;
+  }
+  .beingwithclarity{
+    padding: 54px 0;
+  }
+  .mainthot{
+    gap: 40px;
+  }
   }
 @media (max-width:435px){
   .home-banner .container h1{

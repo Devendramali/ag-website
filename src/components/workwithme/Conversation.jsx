@@ -5,13 +5,13 @@ const Conversation = () => {
   return (
     <div className='conversation'>
         <div className="container1">
-            <div className="row">
-                <div className="col-lg-6">
+            <div className="row justify-content-center">
+                <div className="col-lg-6 col-md-7">
                     <figure>
                         <img src={wwml} alt="" />
                     </figure>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-7">
                     <div className="mainthot">
                         <div className="thot">
                             <h3>I don’t chase projects. <br />

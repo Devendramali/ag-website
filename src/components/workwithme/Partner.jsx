@@ -16,40 +16,40 @@ const Partner = () => {
                     <h4>I collaborate with people who see business as a <br /> purpose not just a profession.</h4>
                 </div>
                 <div className="row mt-160">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-4">
                         <div className="part1">
                             <h3>Founders & Startups</h3>
                             <p>Building from scratch with clarity.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-8">
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo1} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo2} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo3} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo4} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo5} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo6} alt="" />
                                 </figure>
@@ -59,41 +59,41 @@ const Partner = () => {
                 </div>
                 <div className="row mt-160">
                   
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-8">
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo1} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo2} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo3} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo4} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo5} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo6} alt="" />
                                 </figure>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-4">
                         <div className="part1 ms-0">
                             <h3>Legacy Brands</h3>
                             <p>Evolving what already exists.</p>
@@ -101,40 +101,40 @@ const Partner = () => {
                     </div>
                 </div>
                 <div className="row mt-160">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-4">
                         <div className="part1">
                             <h3>Institutions & Ecosystems </h3>
                             <p>Shaping legacy and reputation at scale.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-8">
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo1} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo2} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo3} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo4} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo5} alt="" />
                                 </figure>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <figure className='partlogo'>
                                     <img src={logo6} alt="" />
                                 </figure>

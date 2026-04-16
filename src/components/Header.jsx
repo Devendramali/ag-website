@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className='header'>
         <div className='head-container'>
-          <div className='row'>
+          <div className='row justify-content-between'>
             <div className="col-lg-2 col-6 col-sm-2 col-md-2">
               <div className="logo">
                 <img src={logo} alt="" />

@@ -10,7 +10,7 @@ const BuildTogater = () => {
         <div className="container1">
             <h3>WHAT WE CAN BUILD TOGETHER</h3>
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-4">
                     <div className="tocontainer">
                         <h4>How your brand looks to the world.</h4>
                         <figure>
@@ -19,7 +19,7 @@ const BuildTogater = () => {
 
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-4">
                     <div className="tocontainer">
                         <h4>Where your brand interacts with the world.</h4>
                         <figure>
@@ -28,7 +28,7 @@ const BuildTogater = () => {
 
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-4">
                     <div className="tocontainer">
                         <h4>How your brand stays in the world.</h4>
                         <figure>
