@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import Layout from './Layout'
 import WorkWithMe from './components/pages/WorkWithMe'
 import Aos from 'aos'
+import AboutAG from './components/pages/AboutAG'
 
 function App() {
    Aos.init();
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='/work-with-me' element={<WorkWithMe/>} />
+            <Route path='/about-ag' element={<AboutAG/>} />
           </Route>
         </Routes>
 
