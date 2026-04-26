@@ -5,11 +5,12 @@ import UnderstoodPeople from '../aboutag/UnderstoodPeople'
 import BrandSoulPhilosophy from '../aboutag/BrandSoulPhilosophy'
 import Brandfream from '../aboutag/BrandFream'
 import Manifesto from '../aboutag/Manifesto'
-import Aboutcta from '../aboutag/aboutcta'
+import Aboutcta from '../aboutag/Aboutcta'
 import AboutScrolltext from '../aboutag/AboutScrolltext'
 import Testimonial from '../aboutag/Testimonial'
 import CarryMySoul from '../aboutag/CarryMySoul'
 import LeftRightText from '../aboutag/LeftRightText'
+// import LeftRightText from '../aboutag/LeftRightText'
 
 const AboutAG = () => {
   return (
