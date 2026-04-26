@@ -1,4 +1,4 @@
-import useImageFallback from "../../../hooks/useImageFallback";
+import useImageFallback from "../../hooks/useImageFallback";
 
 export default function ProjectCard({ project, cardRef }) {
   const [imgError, setImgError] = useImageFallback();

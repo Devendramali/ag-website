@@ -6,6 +6,10 @@ import Layout from './Layout'
 import WorkWithMe from './components/pages/WorkWithMe'
 import Aos from 'aos'
 import AboutAG from './components/pages/AboutAG'
+import RedditPage from './components/pages/RedditPage'
+import AudioPage from './components/pages/AudioPage'
+import ArticlePage from './components/pages/ArticlePage'
+import MiniSeriesUniverse from './components/pages/MiniSeriesUniverse'
 
 function App() {
    Aos.init();
@@ -18,6 +22,10 @@ function App() {
             <Route index element={<Home />} />
             <Route path='/work-with-me' element={<WorkWithMe/>} />
             <Route path='/about-ag' element={<AboutAG/>} />
+            <Route path='/reddit-list' element={<RedditPage/>} />
+            <Route path='/audio-list' element={<AudioPage/>} />
+            <Route path='/article-list' element={<ArticlePage/>} />
+            <Route path='/mini-series-universe' element={<MiniSeriesUniverse/>} />
           </Route>
         </Routes>
 
