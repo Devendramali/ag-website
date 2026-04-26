@@ -370,7 +370,6 @@ margin-top: 10px;
   position: relative;
   padding: 0px 0;
   height: 200vh;
-  /* background-color: red; */
   z-index: 11;
 }
 
@@ -1617,6 +1616,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 120%; /* 24px */
    }
+   .understood .imgboe img{
+    width: 100%;
+    width: 100%;
+   }
    .understood .imgboe{
     display: flex;
     gap: 10px;
@@ -1680,6 +1683,9 @@ line-height: 120%;
    .manifesto{
     padding: 60px 0;
     background-color: #052C27;
+   }
+   .manifesto .row{
+    gap: 20px 0;
    }
    .brandcont h3 span{
     color: var(--greybg, #F5F5F5);
@@ -1960,6 +1966,10 @@ margin-top: 100px;
 }
 .leftrighttext{
   padding: 80px 0;
+  overflow-x: hidden;
+}
+.heading{
+  padding: 0 15px;
 }
 .leftrighttext h2{
   color:  #052C27;
@@ -1978,6 +1988,7 @@ text-transform: capitalize;
   text-align: left;
   align-items: center;
   transition: all .3s linear;
+  justify-content: center;
 }
 .carryitem {
   border-top: 1px solid #5C5C5C;
@@ -1990,6 +2001,7 @@ text-transform: capitalize;
 
 .carryitem figure {
   margin-bottom: 0;
+  min-width: 300px;
   overflow: hidden;
 }
 
@@ -2011,7 +2023,9 @@ text-transform: capitalize;
   height: 196px;
   /* transform: scaleY(1); */
 }
-
+.soulcontnt{
+  width: 600px;
+}
 .soulcontnt p{
   color:  #5C5C5C;
 font-family: var(--primary-font);
@@ -2031,8 +2045,14 @@ font-weight: 400;
 line-height: 100%; /* 64px */
 text-transform: capitalize;
 margin-bottom: 27px;
+opacity: 0.8;
 }
-
+.journey .headban{
+  padding: 0 15px;
+}
+.mobiletext{
+  display: none;
+}
 
 
 
@@ -2052,6 +2072,9 @@ margin-bottom: 27px;
   .text-cont{
     justify-content: center;
     gap: 40px;
+  }
+  .brandcont h3{
+    font-size: 45px;
   }
  
  
@@ -2185,6 +2208,7 @@ bottom: 124px;
   .workhed{
     font-size: 36px;
   }
+ 
   .contatde .joinheading .consub{
     font-size: 18px;
   }
@@ -2286,6 +2310,9 @@ align-items: flex-start;
 .aboutcta .container .box12{
   height: 500px;
 }
+.agfream .para2{
+      max-width: 380px;
+}
 
 
 
@@ -2302,6 +2329,15 @@ align-items: flex-start;
     .head-container{
       width: 100%;
     }
+    .soulcontnt{
+  width: auto;
+}
+.carryitem{
+  justify-content: start;
+}
+    .btn1{
+      width: 100%;
+    }
     .agfream{
       margin-top: 0px;
     }
@@ -2314,6 +2350,19 @@ align-items: flex-start;
     .scrollslider{
       height: 700px;
     }
+    .leftrighttext h2{
+      font-size: 76px;
+    }
+        .agfream .para2 {
+        max-width: 261px;
+    }
+        .freamcontent .para1 {
+        max-width: 271px;
+    }
+    .abouttextscroll .word{
+      font-size: 48px;
+    }
+   
     .container1{
       padding: 0 15px;
     }
@@ -2326,6 +2375,16 @@ align-items: flex-start;
     .workbanner .banner-containt .conth3{
       padding: 0 30px;
     }
+        .carryitem {
+        padding: 40px 41px;
+    }
+        .brandcont h3 {
+        font-size: 38px;
+    }
+        .aboutag .banner-containt .conth3 {
+        margin-top: 377px;
+    }
+
 }
 @media (max-width:991px){
   .upperfooter{
@@ -2335,9 +2394,24 @@ align-items: flex-start;
     width: 100%;
     margin-top: 50px;
   }
+      .workbanner .banner-containt .conth3 {
+        margin-top: 400px;
+      }
   .beingwithclarity .container1 {
     padding: 0 50px;
 }
+ .carryitem figure img{
+      height: 100%;
+      width: 100%;
+    }
+    .carryitem figure{
+      min-height: 100%;
+      width: 100%;
+
+    }
+    .carryitem{
+      gap: 30px;
+    }
   .lowe{
     flex-direction: column;
     align-items:start;
@@ -2535,10 +2609,27 @@ align-items: flex-start;
     display: none;
 
   }
+  .carryitem{
+    align-items: start;
+  }
   .stack-wrapper .container .maincard:nth-child(2) .boxgrid{
     max-width: 400px;
     margin-top: 90px;
   }
+  .manifesto .headimg1{
+    margin-bottom: 40px;
+  }
+  .brandimg{
+    height: 500px;
+  }
+  .brandimg img{
+    height: 100%;
+    width: fit-content;
+  }
+      .manifesto .row:nth-child(2) .col-lg-4 {
+        order: -1;
+    }
+
   .stack-wrapper .container .maincard:last-child{
     margin-top: 0;
   }
@@ -2676,18 +2767,25 @@ align-items: flex-start;
     width: 100%;
   }
   .workbanner .banner-containt .conth3{
-    margin-top: 200px;
+    margin-top: 480px;
     padding: 0 15px;
   }
       .workbanner .banner-containt .conth3 h3 {
         font-size: 26px;
         margin-top: 36px;
-        text-align: left;
+        /* text-align: left; */
     }
     .conth3 .d-flex{
       justify-content: center;
       align-items: left;
       gap: 20px;
+    }
+    .carryitem{
+      flex-direction: column;
+    }
+   
+    .leftrighttext{
+      overflow-y: hidden;
     }
   
 }
@@ -2704,14 +2802,76 @@ align-items: flex-start;
         margin-top: 50px;
         gap: 0 16px;
     }
+    .soulcontnt p{
+      font-size: 16px;
+    }
+    .aboutcta .container .box12{
+      padding: 15px;
+    }
+    .aboutcta .container .box12 h2{
+      font-size: 29px;
+    }
+    .jbimg{
+      padding: 0 15px;
+    }
+    .understood{
+      padding-top: 0;
+    }
+    .carrymysoul .heading h2{
+      font-size: 30px;
+    }
+    .understoodhed h2{
+      font-size: 30px;
+      margin-top: 43px;
+    }
+        .manifesto .container {
+        padding: 0 15px;
+    }
         .stack-wrapper .container .maincard .boxgrid {
         max-width: 311px !important;
     }
         .seriescont .secard2 {
         height: 100%;
     }
+    .workbanner .banner-containt .conth3 br{
+      display: none;
+    }
+    .journey .headban br{
+      display: none;
+
+    }
+    .journey .headban{
+      font-size: 30px;
+    }
+    .paraj p{
+      font-size: 16px;
+    }
+    .workbanner .banner-containt .conth3{
+      margin-top: 400px;
+    }
+    .brandimg{
+      height: auto;
+    }
+    .brandimg img{
+      width: 100%;
+    }
+    .jbimg {
+    margin-top: 45px;
+    }
     .connect {
     padding: 90px 30px;
+}
+.understoodhed p br{
+  display: none;
+}
+.brandsolaimg .mt-5{
+  margin-top: 0 !important;
+}
+.brandsolaimg .img{
+  height: 100%;
+}
+.understoodhed p{
+  font-size: 16px;
 }
 .beingwithclarity .container1 {
     padding: 0 30px;
@@ -2801,9 +2961,77 @@ align-items: flex-start;
   .beingwithclarity{
     padding: 54px 0;
   }
+   .brandcont.leftbox h3,
+    .brandcont.right h3,
+      .brandcont.lastbox h3{
+      margin-right: 0;
+      margin-left: 0 !important;
+    }
+    .brandsolaimg .row{
+      padding: 0 30px;
+      gap: 30px 0;
+    }
+    .lastparaomd{
+      margin-top: 40px;
+    }
+    .carryitem figure{
+      min-height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+    .carryitem figure img{
+      height: 100%;
+      width: 100%;
+    }
+    .brandcont{
+      display: block;
+    }
+    .brandcont h3{
+      display: contents;
+        font-size: 36px;
+        margin-right: 10px;
+        display: none;
+    
+    }
+    .mobiletext{
+      display: block !important;
+    }
+        .carryitem {
+        padding: 25px 14px;
+        gap: 20px ;
+        border: none;
+    }
+    .soulcontnt h1{
+      font-size: 43px;
+      margin-bottom: 18px;
+    }
   .mainthot{
     gap: 40px;
   }
+  .manifesto .row:nth-child(2) .col-lg-4{
+    order: -1;
+
+  }
+.testimonial-card{
+  padding: 10px;
+}
+.abouttextscroll .word{
+  font-size: 48px;
+}
+.aboutcta .container .box12{
+  background-size: cover;
+  padding: 10px;
+}
+.aboutcta{
+  padding-top: 0;
+}
+    .leftrighttext h2 {
+        font-size: 40px;
+    }
+    .carrymysoul{
+      padding-top: 0;
+    }
+
   }
 @media (max-width:435px){
   .home-banner .container h1{
@@ -2994,7 +3222,7 @@ align-items: flex-start;
     padding: 70px 0;
 }
 .scrolltext p{
-  margin-top: 0;
+  /* margin-top: 0; */
   font-size: 27px;
 }
 .word img {
@@ -3028,6 +3256,13 @@ align-items: flex-start;
     }
     .home-banner .container h1 {
        font-size: 73px;
+    }
+    .leftrighttext h2{
+          font-size: 39px;
+    }
+   
+        .manifesto .container {
+        padding: 0 15px;
     }
 }
 @media (max-width:375px){

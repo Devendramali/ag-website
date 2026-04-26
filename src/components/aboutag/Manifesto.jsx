@@ -20,6 +20,8 @@ const Manifesto = () => {
                         <h3>It’s a living system </h3>
                         <h3> of emotion </h3>
                         <h3>and intention.</h3>
+
+                        <h3 className='mobiletext'>A <span>brand</span> is not a logo.It’s a living system of emotion  and intention.</h3>
                     </div>
                 </div>
             </div>
@@ -32,6 +34,7 @@ const Manifesto = () => {
                             <h3>     to build </h3> 
                                 <h3>    what others only </h3> 
                                 <h3>      imagine.</h3>
+                                <h3 className='mobiletext'>A <span>founder</span> is  not a title. It’s the discipline  to build  what others only  imagine.</h3>
                     </div>
                 </div>
                 <div className="col-lg-4">
@@ -55,6 +58,7 @@ const Manifesto = () => {
                         <h3>   the value </h3>
                         <h3>  you choose to create, </h3>
                         <h3>  consistently</h3>
+                        <h3 className="mobiletext">And <span>business</span> is not about the market  It’s about  the value you choose to create,  consistently</h3>
                     </div>
                 </div>
             </div>

@@ -12,17 +12,17 @@ const BrandSoulPhilosophy = () => {
         </div>
         <div className='brandsolaimg'>
           <div className="row">
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 col-md-4 mt-5">
               <div className="img">
                 <img src={img1} alt="" />
               </div>
             </div>
-            <div className="col-lg-4 ">
+            <div className="col-lg-4 col-md-4 ">
               <div className="img">
                 <img src={img2} alt="" />
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 col-md-4 mt-5">
               <div className="img">
                 <img src={img3} alt="" />
               </div>
