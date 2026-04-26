@@ -13,7 +13,7 @@ const Brandfream = () => {
 
   const handleScroll = () => {
 
-    // ❌ STOP animation below 786px
+    // ❌ STOP animation below 786
     if (window.innerWidth <= 991) {
 
       // reset frame
