@@ -2606,6 +2606,9 @@ margin-bottom: 40px;
 .learnbanner.workbanner .banner-containt .conth3{
   margin-top: 350px;
 }
+.miniseries.breadcrumb img{
+  object-fit: cover;
+}
 
 
 

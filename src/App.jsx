@@ -11,6 +11,7 @@ import AudioPage from './components/pages/AudioPage'
 import ArticlePage from './components/pages/ArticlePage'
 import MiniSeriesUniverse from './components/pages/MiniSeriesUniverse'
 import LearnWithAg from './components/pages/LearnWithAg'
+import FounderWisdomVault from './components/pages/FounderWisdomVault'
 
 function App() {
    Aos.init();
@@ -27,6 +28,7 @@ function App() {
             <Route path='/reddit-list' element={<RedditPage/>} />
             <Route path='/audio-list' element={<AudioPage/>} />
             <Route path='/article-list' element={<ArticlePage/>} />
+            <Route path='/founder-wisdom-vault' element={<FounderWisdomVault/>} />
             <Route path='/mini-series-universe' element={<MiniSeriesUniverse/>} />
           </Route>
         </Routes>

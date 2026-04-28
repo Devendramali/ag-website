@@ -43,7 +43,7 @@ const MiniSeries = () => {
               ]
   return (
     <div className="miniseries">
-        <div className="cvontainer">
+        <div className="container">
           <h2 className='heading'>The Founder Wisdom Vault</h2>
               <Swiper
             modules={[Navigation, Pagination, Autoplay]}

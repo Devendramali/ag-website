@@ -6,7 +6,7 @@ import breadcrunb from '../../assets/img/reddit/mini.png'
 const MiniSeriesUniverse = () => {
   return (
     <>
-        <div className="breadcrumb miniseries">
+        <div className="breadcrumb miniseries p-0">
                         <img src={breadcrunb} alt="" />
                         <div className="brudcont">
                             <h2>Real Audio. Real Minds</h2>
