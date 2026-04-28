@@ -2351,10 +2351,14 @@ height: 48px;
   top: auto;
 }
 .articlecard:hover::after{
-  height:1200px;
-  width: 1200px;
+  height:2000px;
+  width: 2000px;
 }
-.audiofilter .row >div .articlecard .articlecontent::before{
+.longgrid{
+  gap: 24px 0;
+}
+ .longgrid > div .articlecard .articlecontent::before,
+.audiofilter .row > div .articlecard .articlecontent::before{
   height: 215px;
   width: 187px;
   content: "";
@@ -2363,21 +2367,53 @@ height: 48px;
   right: 0;
   z-index: -1;
 }
+.secard img{
+  width: 100%;
+}
+ .longgrid > div:nth-child(4n+1) .articlecard .articlecontent::before ,
 .audiofilter .row > div:nth-child(4n+1) .articlecard .articlecontent::before {
   background-image: url(./assets/img/reddit/mask1.png);
 }
 
+ .longgrid > div:nth-child(4n+2) .articlecard .articlecontent::before ,
 .audiofilter .row > div:nth-child(4n+2) .articlecard .articlecontent::before {
   background-image: url(./assets/img/reddit/mask4.png);
 }
 
+.longgrid  > div:nth-child(4n+3) .articlecard .articlecontent::before ,
 .audiofilter .row > div:nth-child(4n+3) .articlecard .articlecontent::before {
   background-image: url(./assets/img/reddit/mask3.png);
 }
 
+.longgrid > div:nth-child(4n+4) .articlecard .articlecontent::before ,
 .audiofilter .row > div:nth-child(4n+4) .articlecard .articlecontent::before {
   background-image: url(./assets/img/reddit/mask4.png);
 }
+ .articlecard .articlecontent .btn3{
+  margin-left: 0;
+  margin-bottom: 0;
+}
+/* .longgrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+
+.longgrid .griditrm {
+  width: 100%;
+}
+
+.longgrid .griditrm:nth-child(1) {
+  grid-column: span 4;
+}
+
+.longgrid .griditrm:nth-child(2) {
+  grid-column: span 3;
+}
+
+.longgrid .griditrm:nth-child(3) {
+  grid-column: span 3;
+} */
 
 .articlecontent h2{
   font-size: 24px;
@@ -2416,9 +2452,168 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.miniseries{
-  
+.learnbanner .banner-containt a.btn2{
+  margin: auto;
+  margin-top: 40px;
 }
+.learnbanner figure img{
+  width: 100%;
+  scale: 1;
+}
+.learnbanner figure{
+  filter: blur(3px);
+  overflow: hidden;
+}
+.learnbanner .banner-containt p{
+color: var(--greybg, #F5F5F5);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
+margin-top: 16px;
+}
+/* .learnbanner figure img{
+  width: 110%;
+  object-position: center center;
+} */
+ .founderwisdom{
+  padding: 56px 0 172px;
+  position: relative;
+ }
+ .founderwisdom.bg{
+  /* position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 736px;
+  z-index: -1; */
+  background-image: url(./assets/img/founderwisdom/1.png);
+  background-position: bottom bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .founderwisdom .bg img{
+  height: 100%;
+  width: 100%;
+ }
+.secard2 img{
+  width: 100%;
+  height: 100%;
+}
+.founderwisdom .btn3{
+  margin: auto;
+  margin-top: 56px;
+}
+.miniseries .heading{
+  color: #F5F5F5;
+}
+.miniseries{
+  padding: 70px 0;
+  background-color: #151515;
+}
+.audiorow{
+  gap: 24px 0;
+}
+
+.founderwisdom.pb-70px{
+  padding: 70px 0;
+}
+.articlesection{
+  padding: 70px;
+  background-color: #052C27;
+}
+.row{
+  gap: 24px 0;
+}
+.book{
+  padding:  70px 0;
+}
+.book .container1{
+  max-width: 932px;
+}
+.book-content {
+padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.book-content h3{
+  color: var(--green, #052C27);
+font-family: var(--primary-font);
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 60px */
+text-transform: capitalize;
+text-align: left;
+}
+.book-content p{
+  color: var(--grey3, #5C5C5C);
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+margin-bottom: 40px;
+}
+.book-content .btn2{
+  margin: auto;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.learncard h1{
+  font-family: var(--seconadry-font);
+  margin-top: 90px;
+}
+
+.leardconnect{
+  padding: 70px 24px;
+}
+.joingrow .joincont{
+  max-width: 1090px;
+  margin: auto;
+}
+.joincont h3{
+  color: var(--grey3, #5C5C5C);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 28.8px */
+margin-bottom: 16px;
+}
+.joincont h1{
+  color: var(--green, #052C27);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 76.8px */
+margin-bottom: 40px;
+}
+.joingrow{
+  padding: 70px 0 197px;
+
+}
+
+.learnbanner.workbanner .banner-containt .conth3{
+  margin-top: 350px;
+}
+
+
+
+
+
+
+
+
 
 @media (max-width:1280px) {
   .home-banner .container h1{
@@ -2444,6 +2639,9 @@ line-height: normal;
     font-size: 48px;
         max-width: 782px;
 
+  }
+  .articlesection {
+    padding: 70px 0;
   }
  
  
@@ -2797,6 +2995,28 @@ align-items: flex-start;
   }
   .scrolltext{
     margin-bottom: 0;
+  }
+  .learnbanner.workbanner  .banner-containt .conth3 {
+        margin-top: 350px;
+  }
+  .heading br{
+    display: none;
+  }
+  .book figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .book-content p{
+    text-align: left;
+  }
+  .connectcard .row{
+    gap: 0;
+  }.learncard h1{
+    margin-top: 0;
+  }
+  .book figure {
+    height: 557px;
   }
   /* ********************************************************************* wwm */
   .workbanner figure{
@@ -3198,6 +3418,24 @@ align-items: flex-start;
     }
     .jbimg{
       padding: 0 15px;
+    }
+    .heading{
+      font-size: 36px;
+    }
+    .joincont h1{
+      font-size: 48px;
+    }
+    .joingrow{
+     padding: 100px 0;
+    }
+    .joincont h3{
+      font-size: 16px;
+    }
+    .book-content h3{
+      font-size: 48px;
+    }
+    .book-content{
+      padding: 24px 0;
     }
     .understood{
       padding-top: 0;
