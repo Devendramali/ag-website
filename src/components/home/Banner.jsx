@@ -1,15 +1,46 @@
 import React from 'react'
-
+import videoBg from "../../assets/img/video.mp4" // your video path
 const Banner = () => {
   return (
     <div className='home-banner p-90'>
-        <div className='container bigtext'>
-            <div className='d-flex'>
-                <h1>Brand</h1>
-                <h1>Soul</h1>
+           {/* Background Video */}
+ 
+        {/* <div className='container bigtext'>
+             
+            <div className='textvideo'>
+
+                <div className='d-flex'>
+                    <h1>Brand</h1>
+                    <h1>Soul</h1>
+                </div>
+                <h1 className='text-2z'>Alchemist</h1>
             </div>
-            <h1 className='text-2z'>Alchemist</h1>
-        </div>
+                
+
+           
+        </div> */}
+        <div
+                className="container bigtext"
+                >
+                <video
+                    className="banner-video"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                >
+                    <source src={videoBg} type="video/mp4" />
+                </video>
+
+                <div className="textvideo">
+                    <div className="d-flex">
+                    <h1>Brand</h1>
+                    <h1>Soul</h1>
+                    </div>
+
+                    <h1 className="text-2z">Alchemist</h1>
+                </div>
+                </div>
         <div className="bannerpara  p-60  pb-0">
             <div className="container">
 

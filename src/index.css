@@ -114,33 +114,65 @@ background-color: #FAFAFA;
   padding: 90px 0;
 
 }
-.home-banner{
-}
+
 .home-banner .container h1{
   font-family: var(--seconadry-font);
   font-weight: 400;
-  font-size: 344px;
-  line-height: 90%;
+  font-size: 358px;
+  line-height: 100%;
+  margin-bottom: 0;
   letter-spacing: 0%;
   text-transform: uppercase;
 
   text-align: justify;
 
+  /* background: url('../src/assets/img/video.mp4') center/cover no-repeat;
   background: url('../src/assets/img/bgimg.png') center/cover no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent; */
+  
 
-  /* optional for better support */
-  background-clip: text;
-  color: transparent;
+    mix-blend-mode: lighten;
+    user-select: none;
+    background-color: #f5f5f5;
+    color: #000000;
 
+}
+.textvideo{
+    position: absolute;
+  inset: 0;
 }
 .text-2z{
   font-size: 356px !important;
 }
+.textvideo .d-flex{
+  align-items: center;
+  justify-content: center;
+}
 .bigtext{
   margin-top: 60px;
 }
+/* **************************************** */
+.bigtext{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* video */
+.banner-video{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 692px;
+    object-fit: cover;
+}
+
+
+/* ************************************************ */
+
 .bannerpara p{
   font-family: var(--primary-font);
 font-weight: 500;
@@ -2871,16 +2903,27 @@ color: #052C27;
   padding-bottom: 80px;
 }
 
+/* **************************************** */
 
 
 
 
 
 
+@media (max-width:1400.55px){
+  .home-banner .container h1{
+    font-size: 326px !important;
+  }
+}
+@media (max-width:1400.55px){
+  .home-banner .container h1{
+    font-size: 326px !important;
+  }
+}
 
 @media (max-width:1280px) {
   .home-banner .container h1{
-    font-size: 275px;
+    font-size: 287px !important;
   }
   .text-2z{
     font-size: 286px !important;
@@ -2903,6 +2946,7 @@ color: #052C27;
         max-width: 782px;
 
   }
+
   .articlesection {
     padding: 70px 0;
   }
@@ -2915,7 +2959,7 @@ color: #052C27;
 
 @media (max-width:1230px) {
   .home-banner .container h1{
-    font-size: 275px;
+    font-size: 290px;
   }
   .text-2z{
     font-size: 286px !important;
