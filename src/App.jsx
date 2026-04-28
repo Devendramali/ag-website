@@ -12,6 +12,7 @@ import ArticlePage from './components/pages/ArticlePage'
 import MiniSeriesUniverse from './components/pages/MiniSeriesUniverse'
 import LearnWithAg from './components/pages/LearnWithAg'
 import FounderWisdomVault from './components/pages/FounderWisdomVault'
+import BharatBuilding from './components/pages/BharatBuilding'
 
 function App() {
    Aos.init();
@@ -30,6 +31,7 @@ function App() {
             <Route path='/article-list' element={<ArticlePage/>} />
             <Route path='/founder-wisdom-vault' element={<FounderWisdomVault/>} />
             <Route path='/mini-series-universe' element={<MiniSeriesUniverse/>} />
+            <Route path='/bharat-building' element={<BharatBuilding/>} />
           </Route>
         </Routes>
 

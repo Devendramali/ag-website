@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('./assets/font/font.css');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root {
   --primary-color: #052C27;
@@ -9,6 +10,8 @@
   --primary-font: "Altone", sans-serif;
   --seconadry-font: "Anton", sans-serif;
   --thired-font: "League Spartan", sans-serif;
+  --fourth-font: "Abril Fatface", sans-serif;
+  --fifth-font: "DM Sans", sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -2609,7 +2612,264 @@ margin-bottom: 40px;
 .miniseries.breadcrumb img{
   object-fit: cover;
 }
+.bharat{
+  position: relative;
+  background-image: url(./assets/img/bharatbuilding/map1.png);
+  padding-top: 240px;
+  padding-bottom: 221px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 100px;
+}
+.bharat h1{
+  color: var(--green, #052C27);
+  text-align: center;
+font-family: var(--seconadry-font);
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 153.6px */
+text-transform: capitalize;
+max-width: 848px;
+opacity: 0.8;
+margin: auto;
+margin-bottom: 28px;
+}
+.bharat p{
+  color: var(--grey2, #3A3A3A);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+}
+.idea{
+  padding: 67px 0;
+  background-color: #052C27;
+}
 
+.bharatmap{
+  max-width: 590px;
+  margin: auto;
+  position: relative;
+      transform: translateX(-150px);
+}
+.bharatmap p{
+  color: #FFF;
+text-align: center;
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+max-width: 273px;
+text-align: left;
+position: absolute;
+top: 30px;
+right: 0;
+}
+.aciant{
+  max-width: 590px;
+  position: relative;
+  align-items: start;
+  display: flex;
+}
+.aciant .textcontent{
+  position: absolute;
+  max-width: 244px;
+  right: -80px;
+  top: 60px;
+}
+.aciant .textcontent h3{
+color: #FFF;
+text-align: center;
+font-family: var(--fourth-font);
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 64px */
+text-transform: capitalize;
+text-align: left;
+}
+.aciant .textcontent p{
+  color: #FFF;
+text-align: center;
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+text-transform: capitalize;
+margin-bottom: 0;
+text-align: left;
+}
+.ambition{
+  max-width: 720px;
+  margin: auto;
+  margin-right: 0;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-top: -150px;
+}
+.ambition .textcontent{
+   position: absolute;
+  max-width: 276px;
+  left: 0px;
+  top: 60px;
+}
+.ambition .textcontent h3{
+  color: #FFF;
+font-family: var(--fifth-font);
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 64px */
+text-transform: capitalize;
+}
+.metros{
+  padding: 100px 178px 70px;
+}
+.metros .headsect p{
+  color: var(--grey4, #D9D9D9);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.metros h2{
+  text-align: center;
+font-family: var(--primary-font);
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 56px */
+color: #FFF;
+max-width: 621px;
+margin: auto;
+margin-bottom: 64px;
+}
+.metros h2 span{
+  background: linear-gradient(98deg, #F8EEA4 10.77%, #C7A008 93.44%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.metros .row{
+  gap: 60px 0;
+}
+.metros .conr32 p{
+  color: #FFF;
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+text-align: left;
+margin-bottom: 16px;
+}
+.conr32{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.conr32 figure img{
+  width: 100%;
+}
+.footermetro span{
+  background: linear-gradient(98deg, #F8EEA4 10.77%, #C7A008 93.44%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+h2.footermetro{
+  color: #FFF;
+text-align: center;
+font-family: Altone;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 38.4px */
+max-width: 709px !important;
+margin-top: 112px;
+margin-bottom: 0;
+}
+.livingsystem{
+  padding: 112px 0;
+}
+.livingsystem .heading{
+  color: var(--green, #052C27);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+text-transform: capitalize;
+}
+.ivinfitem {
+  margin-top: 60px;
+  margin-bottom: 160px;
+}
+.ivinfitem h2{
+  color: var(--green, #052C27);
+font-family: var(--seconadry-font);
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 48px */
+text-transform: capitalize;
+opacity: 0.8;
+text-align: left;
+margin-bottom: 24px;
+}
+.ivinfitem hr{
+  background-color: #D9D9D9;
+}
+.ivinfitem p{
+  text-align: left;
+  color: var(--grey2, #3A3A3A);
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+max-width: 706px;
+margin: auto;
+margin-right: 0;
+margin-top: 40px;
+}
+.JoinBharat{
+  border-radius: 16px;
+  border: 2px solid #F8EEA4;
+  background: var(--green, #052C27);
+  box-shadow: 0 4px 40px 4px rgba(199, 160, 8, 0.25);
+  padding: 150px 53px;
+}
+.JoinBharat.joincont{
+  max-width: 1196px;
+}
+.JoinBharat h3{
+  color: #D9D9D9;
+}
+.JoinBharat h1{
+  color: #F5F5F5;
+}
+.JoinBharat .btn2 span{
+  background-color: #052C27;
+}
+.JoinBharat .btn2{
+  border-radius: 100px;
+border: 2px solid #F8EEA4;
+background: var(--greybg, #F5F5F5);
+box-shadow: 0 4px 10px 0 rgba(199, 160, 8, 0.25);
+color: #052C27;
+}
+.joingrow.pb-70px{
+  padding-bottom: 80px;
+}
 
 
 
@@ -2646,6 +2906,9 @@ margin-bottom: 40px;
   .articlesection {
     padding: 70px 0;
   }
+  .metros {
+    padding: 100px 100px 70px;
+}
  
  
 }
@@ -3363,7 +3626,35 @@ align-items: flex-start;
   .join .row{
     gap: 40px 0;
   }
-
+.bharat h1{
+      font-size: 68px;
+          max-width: 460px;
+}
+.ambition{
+  margin-top: 100px;
+}
+.aciant{
+  margin-top: 100px;
+}
+.metros{
+  padding: 100px 50px 70px;
+}
+.conr32{
+  max-width: 70%;
+}
+.metros .row .col-lg-3:nth-child(2n+2) .conr32{
+  margin: auto;
+  margin-right: 0;
+}
+.ivinfitem p{
+  max-width: 70%;
+}
+.JoinBharat{
+      padding: 90px 38px;
+}
+.JoinBharat h1{
+  font-size: 48px;
+}
 
 
   /* ************************************************************************ */
@@ -3674,6 +3965,82 @@ align-items: flex-start;
     .carrymysoul{
       padding-top: 0;
     }
+    .aciant svg{
+      transform: translateX(-100px);
+    }
+    .ambition{
+
+      margin-top: 100px;
+              display: block;
+    }
+    .aciant .textcontent h3,
+    .ambition .textcontent h3{
+      font-size: 48px
+    }
+    .aciant .textcontent {
+    position: absolute;
+    max-width: 192px;
+    right: 0;
+    top: 20px;
+}
+.ambition .textcontent{
+  position: relative;
+  top: 0;
+  text-align: left;
+  padding: 0 16px;
+}
+.ambition svg{
+  transform: translateX(100px);
+}
+.bharatmap{
+     transform: translateX(0px);
+     padding: 0 16px;
+}
+.idea{
+  overflow-x: hidden;
+}
+.bharatmap img{
+     transform: translateX(-100px);
+}
+.bharat h1{
+  font-size: 64px;
+}
+.bharatmap p{
+  right: 10px;
+  text-align: center;
+}
+.aciant{
+  margin-top: 100px;
+}
+    .metros {
+        padding: 100px 16px 70px;
+    }
+    .metros .row {
+    gap: 60px 0;
+}
+.conr32{
+  width: 70%;
+}
+.metros .row .col-lg-3:nth-child(2n+2) .conr32{
+  margin: auto;
+  margin-right: 0;
+}
+.metros h2{
+  font-size: 36px;
+}
+.ivinfitem p{
+  max-width: 75%;
+}
+.ivinfitem h2{
+  font-size: 36px;
+}
+.JoinBharat  h1 {
+        font-size: 38px;
+    }
+    .bharat{
+      padding: 240px 16px 160px;
+      background-size: cover;
+    }
 
   }
 @media (max-width:435px){
@@ -3883,6 +4250,9 @@ align-items: flex-start;
     .worksection .headpara {
       margin-bottom: 133px !important;
     }
+        .JoinBharat {
+    padding: 83px 28px;
+}
 }
 
 @media (max-width:380px){
@@ -3908,13 +4278,14 @@ align-items: flex-start;
         padding: 0 15px;
     }
 }
-@media (max-width:375px){
+@media (max-width:376px){
   .text-2z {
         font-size: 78px !important;
     }
     .home-banner .container h1 {
        font-size: 107px;
     }
+
 }
 @media (max-width:330px){
     .text-2z {
