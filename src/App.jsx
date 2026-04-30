@@ -13,6 +13,8 @@ import MiniSeriesUniverse from './components/pages/MiniSeriesUniverse'
 import LearnWithAg from './components/pages/LearnWithAg'
 import FounderWisdomVault from './components/pages/FounderWisdomVault'
 import BharatBuilding from './components/pages/BharatBuilding'
+import Realm1 from './components/pages/Realm1'
+import Gallery from './components/pages/Gallery'
 
 function App() {
    Aos.init();
@@ -32,6 +34,9 @@ function App() {
             <Route path='/founder-wisdom-vault' element={<FounderWisdomVault/>} />
             <Route path='/mini-series-universe' element={<MiniSeriesUniverse/>} />
             <Route path='/bharat-building' element={<BharatBuilding/>} />
+            <Route path='/realm-1' element={<Realm1/>} />
+            <Route path='/gallery' element={<Gallery/>} />
+
           </Route>
         </Routes>
 
