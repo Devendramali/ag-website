@@ -1,4 +1,7 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, FreeMode } from "swiper/modules"
 
@@ -18,84 +21,136 @@ import slider11 from "../../assets/img/ream/11.png"
 import slider12 from "../../assets/img/ream/12.png"
 import slider13 from "../../assets/img/ream/13.png"
 
+gsap.registerPlugin(ScrollTrigger)
+
 const Realmbanner = () => {
+  const sectionRef = useRef(null)
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+
+      gsap.from(".reamban h2", {
+        opacity: 0,
+        y: 100,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 75%",
+          end: "top 40%",
+          scrub: 1,
+        },
+      })
+
+      gsap.from(".smothslider.one", {
+        opacity: 0,
+        x: -200,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 75%",
+          end: "top 40%",
+          scrub: 1,
+        },
+      })
+
+      gsap.from(".smothslider.two", {
+        opacity: 0,
+        x: 200,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 75%",
+          end: "top 40%",
+          scrub: 1,
+        },
+      })
+
+    }, sectionRef)
+
+    return () => ctx.revert()
+  }, [])
 
   const slides = [
-    slider1, 
-    slider2, 
-    slider3, 
-    slider4, 
-    slider5, 
-    slider6, 
-    slider7, 
-    slider8, 
-    slider9, 
-    slider10, 
-    slider11, 
-    slider12, 
-    slider13, 
+    slider1,
+    slider2,
+    slider3,
+    slider4,
+    slider5,
+    slider6,
+    slider7,
+    slider8,
+    slider9,
+    slider10,
+    slider11,
+    slider12,
+    slider13,
   ]
 
   return (
-    <div className="reamban">
+    <div className="reamban" ref={sectionRef}>
 
       <h2>
-        Where brands aren’t <br />
+        Where brands aren’t
+        <br />
         assembled, they’re aligned
       </h2>
+
       <div className="slideroverlay">
 
-      
-      {/* LEFT TO RIGHT */}
-     <Swiper
-  modules={[Autoplay, FreeMode]}
-  slidesPerView={"auto"}
-  spaceBetween={20}
-  loop={true}
-  speed={6000}
-  allowTouchMove={false}
-  freeMode={{
-    enabled: true,
-    momentum: false
-  }}
-  autoplay={{
-    delay: 0,
-    disableOnInteraction: false
-  }}
-  className="smothslider"
->
-        {slides.map((item, index) => (
-          <SwiperSlide key={index} className="slideritem">
-            <img src={item} alt="" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+        {/* LEFT TO RIGHT */}
+        <Swiper
+          modules={[Autoplay, FreeMode]}
+          slidesPerView={"auto"}
+          spaceBetween={20}
+          loop={true}
+          speed={6000}
+          allowTouchMove={false}
+          freeMode={{
+            enabled: true,
+            momentum: false,
+          }}
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false,
+          }}
+          className="smothslider one"
+        >
+          {slides.map((item, index) => (
+            <SwiperSlide key={index} className="slideritem">
+              <img src={item} alt="" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
 
-      {/* RIGHT TO LEFT */}
-     <Swiper
-  modules={[Autoplay, FreeMode]}
-  slidesPerView={"auto"}
-  spaceBetween={20}
-  loop={true}
-  speed={6000}
-  allowTouchMove={false}
-  freeMode={{
-    enabled: true,
-    momentum: false
-  }}
-  autoplay={{
-    delay: 0,
-    reverseDirection: true,
-    disableOnInteraction: false
-  }}
-  className="smothslider mt-4"
->
-        {slides.map((item, index) => (
-          <SwiperSlide key={index} className="slideritem">
-            <img src={item} alt="" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+        {/* RIGHT TO LEFT */}
+        <Swiper
+          modules={[Autoplay, FreeMode]}
+          slidesPerView={"auto"}
+          spaceBetween={20}
+          loop={true}
+          speed={6000}
+          allowTouchMove={false}
+          freeMode={{
+            enabled: true,
+            momentum: false,
+          }}
+          autoplay={{
+            delay: 0,
+            reverseDirection: true,
+            disableOnInteraction: false,
+          }}
+          className="smothslider two mt-4"
+        >
+          {slides.map((item, index) => (
+            <SwiperSlide key={index} className="slideritem">
+              <img src={item} alt="" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+
       </div>
 
     </div>

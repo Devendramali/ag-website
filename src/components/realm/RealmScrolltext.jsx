@@ -75,25 +75,17 @@ const RealmScrolltext = () => {
       <div className="container text-center">
 
         <p className='mt-0'>
-          It begins with intent. <br />
-          Long before a logo, a website, or a marketing plan exists,
+          I firmly believe brands are not built outward-in. <br />
+          They are grown inward-out. <br />
+          The way you speak, decide, hire, price, design, <br />
+          and show up in moments of pressure, <br />
+          all reveal your brand long before visuals do.
         </p>
 
-        <p>
-          there is something quieter,a belief the founder holds, <br />
-          a problem they care about, <br />
-          a standard they refuse to compromise. <br />
-          That inner orientation becomes the brand’s gravity.
+       <p className='goldpara'>
+          That is why brands don’t “find” audiences. <br />
+          They resonate with them.
         </p>
-
-        <p>
-          I firmly believe brands are not built outward-in. <br /> They are grown inward-out. <br />
-          The way you speak, decide, hire, price, design  <br />
-          and show up in moments of pressure, <br /> all reveal your brand long before visuals do.
-        </p>
-          <p>That is why brands don’t “find” audiences. <br /> They resonate with them.</p>
-          <p>When a brand is aligned at its core, <br />
-            the right people recognize it instinctively. <br /> No persuasion required.</p>
 
       </div>
     </div>
