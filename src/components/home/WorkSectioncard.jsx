@@ -48,7 +48,7 @@ export default function WorkSectioncard() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
-        start: "top top",
+        start: "top 5%",
         end: `+=${totalScroll + 80}`,
         scrub: true,
         pin: true,

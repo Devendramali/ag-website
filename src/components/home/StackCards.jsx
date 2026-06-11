@@ -31,7 +31,7 @@ mm.add("(min-width: 991px)", () => {
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: containerRef.current,
-      start: "top top",
+      start: "top 3%",
       end: "bottom bottom",
       scrub: 1,
       pin: true,

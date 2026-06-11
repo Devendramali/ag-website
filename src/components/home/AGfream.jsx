@@ -5,8 +5,8 @@ import fream from "../../assets/img/ag/frame.png"
 const AGfream = () => {
 
   const sectionRef = useRef(null)
-  const frameRef = useRef(null)
   const imgRef = useRef(null)
+  const frameRef = useRef(null)
   const paraRefs = useRef([])
 
  useEffect(() => {
@@ -15,16 +15,17 @@ const AGfream = () => {
 
     // ❌ STOP animation below 786px
     if (window.innerWidth <= 991) {
+         // reset image
+      if (imgRef.current) {
+        imgRef.current.classList.remove("show")
+      }
 
       // reset frame
       if (frameRef.current) {
         frameRef.current.classList.remove("show")
       }
 
-      // reset image
-      if (imgRef.current) {
-        imgRef.current.classList.remove("show")
-      }
+   
 
       // reset paragraphs
       paraRefs.current.forEach((el) => {
@@ -37,6 +38,16 @@ const AGfream = () => {
     }
 
     // ✅ NORMAL ANIMATION (only >786px)
+      // IMAGE animation
+    if (imgRef.current) {
+      const rect = imgRef.current.getBoundingClientRect()
+
+      if (rect.top <= -100) {
+        imgRef.current.classList.add("show")
+      } else {
+        imgRef.current.classList.remove("show")
+      }
+    }
 
     // FRAME animation
     if (frameRef.current) {
@@ -49,16 +60,7 @@ const AGfream = () => {
       }
     }
 
-    // IMAGE animation
-    if (imgRef.current) {
-      const rect = imgRef.current.getBoundingClientRect()
-
-      if (rect.top <= -100) {
-        imgRef.current.classList.add("show")
-      } else {
-        imgRef.current.classList.remove("show")
-      }
-    }
+  
 
     // PARAGRAPHS animation
     paraRefs.current.forEach((el) => {
@@ -97,16 +99,17 @@ const AGfream = () => {
     <div className="agfream" ref={sectionRef}>
 
       <h2>Behind every strategy, there’s a story.</h2>
+            {/* MAIN IMAGE */}
+      <div className='mainimg' ref={imgRef}>
+        <img src={ag} alt="" />
+      </div>
 
       {/* FRAME */}
       <div className='fream' ref={frameRef}>
         <img src={fream} alt="" />
       </div>
 
-      {/* MAIN IMAGE */}
-      <div className='mainimg' ref={imgRef}>
-        <img src={ag} alt="" />
-      </div>
+
 
       {/* CONTENT */}
       <div className="freamcontent">

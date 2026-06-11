@@ -26,7 +26,7 @@ const LogoStack = () => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 20%",
-          end: "bottom -30%",
+          end: "bottom 30%",
           scrub: true,
           pin: true,
           markers: false
@@ -39,20 +39,21 @@ const LogoStack = () => {
         y: 0,
         duration: 2
       })
-      .to(cards[0], {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 3
-      }, "<")
+    .to(cards[0], {
+  opacity: 1,
+  scale: 1,
+  y: 0,
+  zIndex: 1,
+  duration: 2
+}, "<")
 
       // only image hide
-      .to(cards[0], {
-        opacity: 0,
-        scale: 0.8,
-        y: -40,
-        duration: 3
-      })
+      // .to(cards[0], {
+      //   opacity: 0,
+      //   scale: 0.8,
+      //   y: -40,
+      //   duration: 3
+      // })
 
       // STEP 2 => text stay
       .to(texts[1], {
@@ -60,33 +61,35 @@ const LogoStack = () => {
         y: 0,
         duration: 1
       })
-      .to(cards[1], {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 3
-      }, "<")
+    .to(cards[1], {
+  opacity: 1,
+  scale: 1,
+  y: 0,
+  zIndex: 2,
+  duration: 2
+}, "<")
 
       // only image hide
-      .to(cards[1], {
-        opacity: 0,
-        scale: 0.8,
-        y: -40,
-        duration:3
-      })
+      // .to(cards[1], {
+      //   opacity: 0,
+      //   scale: 0.8,
+      //   y: -40,
+      //   duration:3
+      // })
 
       // STEP 3 => text stay
       .to(texts[2], {
         opacity: 1,
         y: 0,
-        duration: 3
+        duration: 2
       })
-      .to(cards[2], {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 3
-      }, "<")
+    .to(cards[2], {
+  opacity: 1,
+  scale: 1,
+  y: 0,
+  zIndex: 2,
+  duration: 2
+}, "<")
 
     }, sectionRef)
 

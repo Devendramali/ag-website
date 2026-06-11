@@ -76,18 +76,19 @@ const Testimonial = () => {
         <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
-            slidesPerView={3.5}
+            slidesPerView={3}
             centeredSlides={true}
             loop={true}
-            autoplay={{
-                delay: 2500,
+             speed={1200} // transition duration
+              autoplay={{
+                delay: 3500,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
-            }}
+              }}
             breakpoints={{
-                0: { slidesPerView: 1.2 },
-                576: { slidesPerView: 2.2 },
-                992: { slidesPerView: 3.5 }, // 👈 keep half visible
+                0: { slidesPerView: 1 },
+                576: { slidesPerView: 2 },
+                992: { slidesPerView: 3 }, // 👈 keep half visible
             }}
         >
 

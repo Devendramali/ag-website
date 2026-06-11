@@ -256,26 +256,38 @@ const Soulcard = () => {
                     <h3>Conscious, measurable evolution</h3>
                     <p>
                       
-Strong brands don’t just grow louder.They grow clearer. <br />
-Scale is not about more content, more ads, or more noise.It’s about expanding without dilution. <br />
-At this stage, we track not only performance,but perception.
+                      Strong brands don’t just grow louder.They grow clearer. <br />
+                      Scale is not about more content, more ads, or more noise.It’s about expanding without dilution. <br />
+                      At this stage, we track not only performance,but perception.
                     </p>
+                      <div>
 
-                    <div className="flotext bixul">
+                      
+                    <div className="flotext bixul fdgfg">
                       <div className="subcontext">
-                        <span>It Includes</span>
-                        <span>Beyond Observation</span>
+                        <span>Observation</span>
                       </div>
 
                       <ul>
                         <li>How trust is forming</li>
                         <li>How memory is building</li>
                         <li>How behavior is shifting over time</li>
+                        
+                      </ul>
+                    </div>
+                    <div className="flotext bixul fdgfg mt-4">
+                      <div className="subcontext">
+                        <span>Beyond Observation</span>
+                      </div>
+
+                      <ul>
+                    
                         <li>Brand recall</li>
                         <li>Emotional consistency</li>
                         <li>Visual fatigue or reinforcement</li>
                         <li>Audience alignment</li>
                       </ul>
+                    </div>
                     </div>
                   </div>
                 </div>

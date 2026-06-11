@@ -24,7 +24,7 @@ const LeftRightText = () => {
       },
       {
         x: 0,
-        opacity: 1,
+        opacity: 0.8,
         duration: 1,
         ease: "power3.out",
         scrollTrigger: {
@@ -45,7 +45,7 @@ const LeftRightText = () => {
       },
       {
         x: 0,
-        opacity: 1,
+        opacity: 0.8,
         duration: 1,
         ease: "power3.out",
         scrollTrigger: {

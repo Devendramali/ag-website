@@ -26,12 +26,12 @@ useEffect(() => {
 }, [active])
   const galleryContent = [
     { id: 1, title: "Strategy meeting with founders and leadership team", category: "Meeting", img: g1 },
-    { id: 2, title: "Strategy meeting with founders and leadership team", category: "Spiritual", img: g2 },
-    { id: 3, title: "Strategy meeting with founders and leadership team", category: "Outdoor trips", img: g3 },
+    { id: 2, title: "Strategy meeting with founders <br> and leadership team", category: "Spiritual", img: g2 },
+    { id: 3, title: "Strategy meeting with founders <br> and leadership team", category: "Outdoor trips", img: g3 },
     { id: 4, title: "Strategy meeting with founders and leadership team", category: "Random Clicks", img: g4 },
-    { id: 5, title: "Strategy meeting with founders and leadership team", category: "Meeting", img: g5 },
-    { id: 6, title: "Strategy meeting with founders and leadership team", category: "Spiritual", img: g6 },
-    { id: 7, title: "Strategy meeting with founders and leadership team", category: "Outdoor trips", img: g7 },
+    { id: 5, title: "Strategy meeting with founders </br> and leadership team", category: "Meeting", img: g5 },
+    { id: 6, title: "Strategy meeting with founders <br> and leadership team", category: "Spiritual", img: g6 },
+    { id: 7, title: "Strategy meeting with founders and  <br>leadership team", category: "Outdoor trips", img: g7 },
   ]
 
   // filter logic
@@ -72,7 +72,7 @@ useEffect(() => {
                     <figure>
                         <img src={item.img} alt={item.title} className="w-full" />
                     </figure>
-                    <h2>{item.title}</h2>
+                    <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                     </div>
                 </div>
                 ))}

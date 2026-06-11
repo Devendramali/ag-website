@@ -37,7 +37,7 @@ const Intent = () => {
         },
         {
           textShadow: "0 0 12px #C7A008",
-          duration: 1,
+          duration: 4,
           scrollTrigger: {
             trigger: sectionRef.current,
             start: "top 45%",

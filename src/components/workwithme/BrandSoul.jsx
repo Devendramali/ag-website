@@ -1,17 +1,39 @@
-import React, { useEffect } from 'react'
 import rightimg from "../../assets/img/soul/rightman.png"
 import leftimg from "../../assets/img/soul/leftman.png"
 import brandsetup1 from "../../assets/img/soul/Brand-identity-setup-1.png"
 import brandsetup2 from "../../assets/img/soul/Digital-Infrastructure.png"
 import brandsetup3 from "../../assets/img/soul/Image-re-engineering.png"
+import React, { useEffect, useRef } from 'react'
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 
 const BrandSoul = () => {
+    const titleRef = useRef(null);
+
+useEffect(() => {
+  if (window.innerWidth <= 911) return;
+
+  const ctx = gsap.context(() => {
+    ScrollTrigger.create({
+      trigger: titleRef.current,
+      start: "top 10%",
+      end: "+=500",
+      pin: true,
+      pinSpacing: false,
+      scrub: 1,
+      markers: false,
+    });
+  });
+
+  return () => ctx.revert();
+}, []);
       
   return (
     <>
         <div className="brandsoul">
-            <div className="container maxw12">
+            <div className="container maxw12" ref={titleRef}>
                 <h2>The Brand Soul Way</h2>
                 <h3 >Building a brand isn’t just about what <br /> you create it’s about how you think.</h3>
             </div>

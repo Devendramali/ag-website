@@ -75,10 +75,18 @@ const BrandGravity = () => {
         scale: 1,
         duration: 0.6
       })
+      
 
       .to(box, {
         opacity: 1,
         duration: 0.6
+      })
+          .to(movetext, {
+        opacity: 0,
+        height: 0,
+        margin: 0,
+        duration: 0.6,
+        stagger: 0.1
       })
 
       .to(cards[0], {
@@ -96,20 +104,14 @@ const BrandGravity = () => {
         y: 295,
         duration: 1
       }, "<")
-
+      
       .to(heading, {
         opacity: 1,
         y: 0,
         duration: 0.6
-      })
+      },"<")
 
-      .to(movetext, {
-        opacity: 0,
-        height: 0,
-        margin: 0,
-        duration: 0.6,
-        stagger: 0.1
-      })
+  
 
       .to(extra[0], {
         opacity: 1,

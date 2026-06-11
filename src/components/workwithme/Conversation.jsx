@@ -6,7 +6,7 @@ const Conversation = () => {
     <div className='conversation'>
         <div className="container1">
             <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-7">
+                <div className="col-lg-5 col-md-7">
                     <figure>
                         <img src={wwml} alt="" />
                     </figure>
