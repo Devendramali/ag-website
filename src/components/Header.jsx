@@ -9,20 +9,22 @@ const Header = () => {
           <div className='row justify-content-between'>
             <div className="col-lg-2 col-6 col-sm-2 col-md-2">
               <div className="logo">
+                <a href="/">
                 <img src={logo} alt="" />
+                </a>
               </div>
             </div>
             <div className="col-lg-8 col-md-7">
               <div className="menu">
                 <ul>
                   <li><a href="#!">Brand Soul</a></li>
-                  <li><a href="#!">Building For Bharat</a></li>
-                  <li><a href="#!">Learn with AG</a></li>
+                  <li><a href="/bharat-building">Building For Bharat</a></li>
+                  <li><a href="/learn-with-ag">Learn with AG</a></li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-2 col-6 col-sm-6 col-md-3">
-              <a href="" className='btn1'>Work With Me</a>
+              <a href="/work-with-me" className='btn1'>Work With Me</a>
             </div>
 
           </div>
