@@ -47,7 +47,7 @@ const Audiofiletr = () => {
         <div className='reditfilter'>
            
             <div className="container">
-                <div className="filterdiv">
+                <div className="filterdiv" data-gsap>
                     <div className="search">
                         <input type="text" className='search' placeholder='search' />
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -74,7 +74,7 @@ const Audiofiletr = () => {
                 <div className="row audiorow">
                     {
                         rediit_list.map((item,index) => (
-                            <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div data-gsap className="col-lg-3 col-md-6 col-sm-12">
                                 <AudioCard  item={item}/>
                             </div>
                         ))

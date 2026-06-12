@@ -46,7 +46,7 @@ const FounderWisdomVaultFilter = () => {
         <div className='reditfilter'>
            
             <div className="container">
-                <div className="filterdiv">
+                <div className="filterdiv" data-gsap>
                     <div className="search">
                         <input type="text" className='search' placeholder='search' />
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">

@@ -18,27 +18,27 @@ const Soulcard = () => {
               <div className="col-lg-6">
                 <div className="left">
                   <div className="slgead">
-                    <h2>Soul</h2>
-                    <p>
+                    <h2 data-gsap>Soul</h2>
+                    <p data-gsap>
                       To ensure the brand looks, sounds, and behaves like
                       itself, everywhere.
                     </p>
                   </div>
 
                   <div className="greencard">
-                    <h3>The emotional truth of the brand</h3>
-                    <p>
+                    <h3 data-gsap>The emotional truth of the brand</h3>
+                    <p data-gsap>
                       Every brand carries an unseen core, its emotional code.
                       This is not positioning language. It is the founder’s
                       non-negotiable truth
                     </p>
 
                     <div className="flotext">
-                      <div className="subcontext">
+                      <div className="subcontext" data-gsap>
                         <span>It Includes</span>
                       </div>
 
-                      <ul>
+                      <ul data-gsap>
                         <li>Brand behavior frameworks</li>
                         <li>Design psychology</li>
                         <li>Conversion architecture</li>
@@ -52,14 +52,14 @@ const Soulcard = () => {
 
               <div className="col-lg-6">
                   <div className="cradwhite">
-                  <h2>Brand Visual Identity & Voice Tonality</h2>
+                  <h2 data-gsap>Brand Visual Identity & Voice Tonality</h2>
 
                   <div className="flotext">
-                    <div className="subcontext">
+                    <div className="subcontext" data-gsap>
                       <span>It Includes</span>
                     </div>
 
-                    <ul>
+                    <ul data-gsap>
                       <li>Brand discovery & archetype mapping</li>
                       <li>Logo and identity systems</li>
                       <li>Brand prism and guidelines</li>
@@ -71,7 +71,7 @@ const Soulcard = () => {
                
 
                 <div className="imgslider">
-                  <h2>Example</h2>
+                  <h2 data-gsap>Example</h2>
 
                   <div className="slidercontainer">
                     <Swiper
@@ -98,25 +98,25 @@ const Soulcard = () => {
                       }}
                     >
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g1} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g2} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g1} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g2} alt="" />
                         </div>
                       </SwiperSlide>
@@ -133,26 +133,26 @@ const Soulcard = () => {
               <div className="col-lg-6">
                 <div className="left">
                   <div className="slgead">
-                    <h2>Science</h2>
-                    <p>
+                    <h2 data-gsap>Science</h2>
+                    <p data-gsap>
                      To ensure the brand looks, sounds, and behaves like itself, everywhere.
                     </p>
                   </div>
 
                   <div className="greencard">
-                    <h3>Giving A structure to meaning</h3>
-                    <p>
+                    <h3 data-gsap>Giving A structure to meaning</h3>
+                    <p data-gsap>
                       Emotion creates movement.Structure sustains it.
                         Science is where clarity becomes repeatable.
                         Here, my team applies systems thinking, behavioral insight, and strategic design to ensure the brand doesn’t collapse under its own growth.
                     </p>
 
                     <div className="flotext">
-                      <div className="subcontext">
+                      <div className="subcontext" data-gsap>
                         <span>It Includes</span>
                       </div>
 
-                      <ul>
+                      <ul data-gsap>
                         <li>Brand behavior frameworks</li>
                         <li>Design psychology</li>
                         <li>Conversion architecture</li>
@@ -166,14 +166,14 @@ const Soulcard = () => {
 
               <div className="col-lg-6">
                  <div className="cradwhite">
-                  <h2>Digital Infrastructure & Systems</h2>
+                  <h2 data-gsap>Digital Infrastructure & Systems</h2>
 
                   <div className="flotext">
-                    <div className="subcontext">
+                    <div className="subcontext" data-gsap>
                       <span>It Includes</span>
                     </div>
 
-                    <ul>
+                    <ul data-gsap>
                       <li>Websites and web platforms</li>
                       <li>Mobile and custom applications</li>
                       <li>ERP, CRM, DMS systems</li>
@@ -184,7 +184,7 @@ const Soulcard = () => {
                 </div>
 
                 <div className="imgslider">
-                  <h2>Example</h2>
+                  <h2 data-gsap>Example</h2>
 
                   <div className="slidercontainer">
                     <Swiper
@@ -211,25 +211,25 @@ const Soulcard = () => {
                       }}
                     >
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g1} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g2} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g1} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g2} alt="" />
                         </div>
                       </SwiperSlide>
@@ -246,15 +246,15 @@ const Soulcard = () => {
               <div className="col-lg-6">
                 <div className="left">
                   <div className="slgead">
-                    <h2>Scale</h2>
-                    <p>
+                    <h2 data-gsap>Scale</h2>
+                    <p data-gsap>
                       To turn digital touchpoints into calm, intuitive brand experiences.
                     </p>
                   </div>
 
                   <div className="greencard">
-                    <h3>Conscious, measurable evolution</h3>
-                    <p>
+                    <h3 data-gsap>Conscious, measurable evolution</h3>
+                    <p data-gsap>
                       
                       Strong brands don’t just grow louder.They grow clearer. <br />
                       Scale is not about more content, more ads, or more noise.It’s about expanding without dilution. <br />
@@ -264,11 +264,11 @@ const Soulcard = () => {
 
                       
                     <div className="flotext bixul fdgfg">
-                      <div className="subcontext">
+                      <div className="subcontext" data-gsap>
                         <span>Observation</span>
                       </div>
 
-                      <ul>
+                      <ul data-gsap>
                         <li>How trust is forming</li>
                         <li>How memory is building</li>
                         <li>How behavior is shifting over time</li>
@@ -276,11 +276,11 @@ const Soulcard = () => {
                       </ul>
                     </div>
                     <div className="flotext bixul fdgfg mt-4">
-                      <div className="subcontext">
+                      <div className="subcontext" data-gsap>
                         <span>Beyond Observation</span>
                       </div>
 
-                      <ul>
+                      <ul data-gsap>
                     
                         <li>Brand recall</li>
                         <li>Emotional consistency</li>
@@ -295,14 +295,14 @@ const Soulcard = () => {
 
               <div className="col-lg-6">
                 <div className="cradwhite">
-                  <h2>Digital Infrastructure & Systems</h2>
+                  <h2 data-gsap>Digital Infrastructure & Systems</h2>
 
                   <div className="flotext">
-                    <div className="subcontext">
+                    <div className="subcontext" data-gsap>
                       <span>It Includes</span>
                     </div>
 
-                    <ul>
+                    <ul data-gsap>
                       <li>Websites and web platforms</li>
                       <li>Mobile and custom applications</li>
                       <li>ERP, CRM, DMS systems</li>
@@ -313,7 +313,7 @@ const Soulcard = () => {
                 </div>
 
                 <div className="imgslider">
-                  <h2>Example</h2>
+                  <h2 data-gsap>Example</h2>
 
                   <div className="slidercontainer">
                     <Swiper
@@ -340,25 +340,25 @@ const Soulcard = () => {
                       }}
                     >
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g1} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g2} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g1} alt="" />
                         </div>
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <div className="sliderimg1">
+                        <div className="sliderimg1" data-gsap>
                           <img src={g2} alt="" />
                         </div>
                       </SwiperSlide>

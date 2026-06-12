@@ -193,7 +193,7 @@ const Gallery = () => {
       >
         {/* Heading — scrolls away before the pin kicks in */}
         <div className="container">
-          <h2 className="heading">Gallery</h2>
+          <h2 className="heading" data-gsap>Gallery</h2>
         </div>
 
         {/* Pinned section — GSAP will insert a pin-spacer div after this */}
@@ -204,7 +204,7 @@ const Gallery = () => {
         >
           <div className="slider" ref={sliderRef}>
             {CARDS.map((c, i) => (
-              <div className="card" key={i}>
+              <div className="card" data-gsap key={i}>
                 <figure className="logocadr">
                   <img src={c.logo} alt={`logo-${i}`} />
                 </figure>

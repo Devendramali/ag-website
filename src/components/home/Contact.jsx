@@ -7,24 +7,24 @@ const join = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
-                    <div className="conefrem">
+                    <div className="conefrem" data-gsap>
                     <img src={ak} alt="" /> 
                     </div>
                 </div>
                 <div className="col-lg-8">
                     <div className="contatde">
                         <div className='joinheading'>
-                            <p className='consub'>Building for Bharat</p>
-                            <h2>Join the Movement</h2>
-                            <p className='down mb-1'>
+                            <p data-gsap className='consub'>Building for Bharat</p>
+                            <h2 data-gsap>Join the Movement</h2>
+                            <p data-gsap className='down mb-1'>
                                 A movement to empower founders, creators, and dreamers from Tier 2 & 3 India.  </p>  
-                                <p className='down'>
+                                <p className='down' data-gsap>
                                 Building community, mindset, and digital tools to help them stay in the game.
                                 </p>
                         </div>
                         <div className="joinform">
-                            <h3>Register Now</h3>
-                            <form className='fromhome'>
+                            <h3 data-gsap>Register Now</h3>
+                            <form data-gsap className='fromhome'>
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <input type="text" placeholder='name' />

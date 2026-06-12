@@ -15,9 +15,10 @@ import FounderWisdomVault from './components/pages/FounderWisdomVault'
 import BharatBuilding from './components/pages/BharatBuilding'
 import Realm1 from './components/pages/Realm1'
 import Gallery from './components/pages/Gallery'
+import useGsapAos from './components/hooks/useGsapAos'
 
 function App() {
-   Aos.init();
+    useGsapAos();
 
   return (
     <>

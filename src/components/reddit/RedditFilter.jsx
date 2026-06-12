@@ -67,7 +67,7 @@ const RedditFilter = () => {
                 <div className="row">
                     {
                         rediit_list.map((item,index) => (
-                            <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div data-gsap className="col-lg-3 col-md-6 col-sm-12">
                                 <Redditcard  item={item}/>
                             </div>
                         ))

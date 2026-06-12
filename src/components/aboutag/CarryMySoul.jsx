@@ -48,20 +48,20 @@ const CarryMySoul = () => {
   return (
     <div className='carrymysoul'>
         <div className="heading">
-            <h2>Brands That Carry My Soul</h2>
-            <p>Over the years, I’ve had the privilege of shaping brands that became more <br />
+            <h2 data-gsap>Brands That Carry My Soul</h2>
+            <p data-gsap>Over the years, I’ve had the privilege of shaping brands that became more <br />
              than businesses — they became movements</p>
         </div>
         <div>
             {
                 soullist.map((item,index)=>(
-                     <div className="carryitem" key={index}>
+                     <div  className="carryitem" key={index}>
                 <figure>
                     <img src={img1} alt="" />
                 </figure>
                 <div className='soulcontnt'>
-                    <h1>{item.title}</h1>
-                    <p>{item.disk}</p>
+                    <h1 data-gsap>{item.title}</h1>
+                    <p data-gsap>{item.disk}</p>
                 </div>
             </div>
                 ))

@@ -19,11 +19,11 @@ const UnderstoodPeople = () => {
       <div className="container1">
 
         <div className="understoodhed">
-          <p>
+          <p data-gsap>
             What began as a small digital agency slowly evolved into <br />
             a place where we didn’t just design websites or logos…
           </p>
-          <h3>we understood people.</h3>
+          <h3 data-gsap>we understood people.</h3>
         </div>
 
         <div className='imgboe'>
@@ -53,23 +53,23 @@ const UnderstoodPeople = () => {
           >
 
             <SwiperSlide>
-              <img src={img1} alt="" />
+              <img data-gsap src={img1} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={img2} alt="" />
+              <img data-gsap src={img2} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={img3} alt="" />
+              <img data-gsap src={img3} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={img4} alt="" />
+              <img data-gsap src={img4} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={img5} alt="" />
+              <img data-gsap src={img5} alt="" />
             </SwiperSlide>
 
           </Swiper>

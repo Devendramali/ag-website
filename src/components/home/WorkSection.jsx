@@ -7,11 +7,11 @@ const WorkSection = () => {
         {/* ✅ HEADING */}
       <div className="headpara container" style={{ textAlign: "left", marginBottom: "50px" }}>
        
-            <p >Every brand, initiative, experiment <br />
+            <p data-gsap>Every brand, initiative, experiment <br />
                 was crafted from one shared belief </p>
 
 
-            <p >soul isn’t an accessory in <br /> business it’s the engine.</p>
+            <p data-gsap>soul isn’t an accessory in <br /> business it’s the engine.</p>
   
       
       </div>

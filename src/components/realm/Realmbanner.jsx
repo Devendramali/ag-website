@@ -92,7 +92,7 @@ const Realmbanner = () => {
   return (
     <div className="reamban" ref={sectionRef}>
 
-      <h2>
+      <h2 data-gsap>
         Where brands aren’t
         <br />
         assembled, they’re aligned
@@ -116,11 +116,11 @@ const Realmbanner = () => {
             delay: 0,
             disableOnInteraction: false,
           }}
-          className="smothslider one"
+          className="smothslider one" 
         >
           {slides.map((item, index) => (
-            <SwiperSlide key={index} className="slideritem">
-              <img src={item} alt="" />
+            <SwiperSlide key={index}  className="slideritem">
+              <img data-gsap src={item} alt="" />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -146,7 +146,7 @@ const Realmbanner = () => {
         >
           {slides.map((item, index) => (
             <SwiperSlide key={index} className="slideritem">
-              <img src={item} alt="" />
+              <img data-gsap src={item} alt="" />
             </SwiperSlide>
           ))}
         </Swiper>

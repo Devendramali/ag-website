@@ -71,7 +71,7 @@ const Testimonial = () => {
     <div className="testimonial-section">
       <div className="container text-center">
 
-        <h2>What People Say</h2>
+        <h2 data-gsap>What People Say</h2>
 
         <Swiper
             modules={[Navigation, Pagination, Autoplay]}
@@ -94,7 +94,7 @@ const Testimonial = () => {
 
           {testimonials.map((item, i) => (
             <SwiperSlide key={i}>
-              <div className="testimonial-card">
+              <div data-gsap className="testimonial-card">
 
                 <p className="quote">“{item.text}”</p>
 

@@ -18,7 +18,7 @@ const FounderWisdom = () => {
   return (
     <div className='founderwisdom bg'>
         <div className="container">
-            <h2 className='heading'>The Founder Wisdom Vault</h2>
+            <h2 className='heading' data-gsap>The Founder Wisdom Vault</h2>
               <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
@@ -40,13 +40,13 @@ const FounderWisdom = () => {
           >
             {slider.map((img, i) => (
               <SwiperSlide key={i}>
-                <div className="secard">
+                <div data-gsap className="secard">
                   <img src={img} alt="" />
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-         <a href="#" class="btn3 glodenborder  graybg">See My Approach<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" rx="24" fill="#052C27" fill-opacity="1"></rect><path d="M19 19H29M29 19V29M29 19L19 29" stroke="#fff" stroke-width="1.6" stroke-linecap="square"></path></svg></a>
+         <a href="#" data-gsap class="btn3 glodenborder  graybg">See My Approach<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" rx="24" fill="#052C27" fill-opacity="1"></rect><path d="M19 19H29M29 19V29M29 19L19 29" stroke="#fff" stroke-width="1.6" stroke-linecap="square"></path></svg></a>
         </div>
         {/* <div className="bg">
             <img src={card2} alt="" />

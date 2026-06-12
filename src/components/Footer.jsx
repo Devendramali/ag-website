@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className='footer'>
         <div className="container">
             <div className='upperfooter'>
-                <p>Maybe it’s time we build something together.</p>
+                <p data-gsap>Maybe it’s time we build something together.</p>
                 <div className="row">
                     <div className="col-lg-3 col-md-4">
-                        <ul>
+                        <ul data-gsap>
                             <li><a href="#!">about</a></li>
                             <li><a href="#!">work</a></li>
                             <li><a href="#!">services</a></li>
@@ -17,14 +17,14 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-lg-5 col-md-4">
-                        <ul>
+                        <ul data-gsap>
                             <li><a href="#!">diigiihost</a></li>
                             <li><a href="#!">quote your price</a></li>
                             <li><a href="#!">best rate websites</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-4 col-md-4">
-                        <ul>
+                        <ul data-gsap>
                             <li><a href="#!">instagram</a></li>
                             <li><a href="#!">facebook</a></li>
                             <li><a href="#!">youtube</a></li>

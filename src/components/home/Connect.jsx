@@ -6,22 +6,22 @@ const Connect = () => {
             <div className="connectcard">
                 <div className="row g-0">
                     <div className="col-lg-4">
-                        <figure>
+                        <figure data-gsap>
                             <img src={img} alt="" />
                         </figure>
                     </div>
                     <div className="col-lg-8">
                         <div className="cocard">
-                            <h1>Let’s Connect</h1>
-                            <p>Do you have a idea that you want to bring to life , Then this <br /> the right time for us to connect</p>
+                            <h1 data-gsap>Let’s Connect</h1>
+                            <p data-gsap>Do you have a idea that you want to bring to life , Then this <br /> the right time for us to connect</p>
                             <div className='socialcard'>
-                                <a href="#" className="btn3 bg-none">Book a appointment <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <a data-gsap href="#" className="btn3 bg-none">Book a appointment <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect width="48" height="48" rx="24" fill="white" fill-opacity="0.15" />
                                     <path d="M19 19H29M29 19V29M29 19L19 29" stroke="white" stroke-width="1.6" stroke-linecap="square" />
                                 </svg>
                                 </a>
 
-                                <ul>
+                                <ul data-gsap>
                                     <li><a href="#!"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_673_209)">
                                             <path d="M14.5846 5.41699H14.593M5.83464 1.66699H14.168C16.4692 1.66699 18.3346 3.53247 18.3346 5.83366V14.167C18.3346 16.4682 16.4692 18.3337 14.168 18.3337H5.83464C3.53345 18.3337 1.66797 16.4682 1.66797 14.167V5.83366C1.66797 3.53247 3.53345 1.66699 5.83464 1.66699ZM13.3346 9.47533C13.4375 10.1689 13.319 10.8772 12.9961 11.4995C12.6732 12.1218 12.1623 12.6265 11.536 12.9417C10.9097 13.2569 10.2 13.3667 9.50779 13.2553C8.81557 13.1439 8.1761 12.8171 7.68033 12.3213C7.18457 11.8255 6.85775 11.1861 6.74636 10.4938C6.63497 9.80162 6.74469 9.0919 7.05991 8.46564C7.37512 7.83937 7.87979 7.32844 8.50212 7.00553C9.12445 6.68261 9.83276 6.56415 10.5263 6.66699C11.2337 6.7719 11.8887 7.10154 12.3944 7.60725C12.9001 8.11295 13.2297 8.76789 13.3346 9.47533Z" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />

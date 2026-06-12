@@ -46,11 +46,11 @@ const Longform = () => {
   return (
     <div className='founderwisdom  pb-70px'>
         <div className="container1">
-             <h2 className='heading'>The Founder Wisdom Vault</h2>
+             <h2 className='heading' data-gsap>The Founder Wisdom Vault</h2>
              <div className="row longgrid">
                  {
                         rediit_list.map((item,index) => (
-                            <div className={`${item.className} `}>
+                            <div data-gsap className={`${item.className} `}>
                                 <ArticleCard  item={item}/>
                             </div>
                         ))

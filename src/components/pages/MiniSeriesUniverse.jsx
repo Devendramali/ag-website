@@ -9,7 +9,7 @@ const MiniSeriesUniverse = () => {
         <div className="breadcrumb miniseries p-0">
                         <img src={breadcrunb} alt="" />
                         <div className="brudcont">
-                            <h2>Real Audio. Real Minds</h2>
+                            <h2  data-gsap>Real Audio. Real Minds</h2>
                         </div>
                     </div>
     

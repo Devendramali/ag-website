@@ -10,7 +10,7 @@ const AboutBanner = () => {
             </figure>
             <div className='banner-containt'>
                 <div className="conth3">
-                    <h3>Hi, I’m <span>Alkesh Gupta</span> — a Founder, <br /> Creator, and Soul Alchemist.</h3>
+                    <h3 data-gsap>Hi, I’m <span>Alkesh Gupta</span> — a Founder, <br /> Creator, and Soul Alchemist.</h3>
                    
                 </div>
 

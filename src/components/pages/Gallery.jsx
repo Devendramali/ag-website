@@ -9,7 +9,7 @@ const Gallery = () => {
 
                 </div>
                 <div className="brudcont">
-                    <h2>Gallery </h2>
+                    <h2 data-gsap>Gallery </h2>
                 </div>
             </div>
             <GalleryFilter/>

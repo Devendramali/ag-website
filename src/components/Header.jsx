@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.png"
 const Header = () => {
   return (
     <>
-      <div className='header'>
+      <div className='header' data-gsap>
         <div className='head-container'>
           <div className='row justify-content-between'>
             <div className="col-lg-2 col-6 col-sm-2 col-md-2">

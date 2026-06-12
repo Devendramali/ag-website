@@ -44,7 +44,7 @@ const MiniSeries = () => {
   return (
     <div className="miniseries">
         <div className="container">
-          <h2 className='heading'>The Founder Wisdom Vault</h2>
+          <h2 className='heading' data-gsap>The Founder Wisdom Vault</h2>
               <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
@@ -66,7 +66,7 @@ const MiniSeries = () => {
           >
             {slider.map((img, i) => (
               <SwiperSlide key={i}>
-                <div className="secard2">
+                <div data-gsap className="secard2">
                   <img src={img} alt="" />
                 </div>
               </SwiperSlide>

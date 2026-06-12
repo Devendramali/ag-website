@@ -4,7 +4,7 @@ import React from 'react'
 const Aboutcta = () => {
   return (
     <div className='aboutcta'>
-        <div className="container">
+        <div className="container" data-gsap>
             <div className="box12">
                 <h2>This is not my story, <br />
                     It’s a reminder, <br />

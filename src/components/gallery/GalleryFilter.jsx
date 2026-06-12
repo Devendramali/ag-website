@@ -62,17 +62,17 @@ useEffect(() => {
             <div className="filtercont masonry">
 
                {filteredData.map((item, index) => (
-                <div
+                <div 
                     className="filteritem masonry-item"
                     key={`${active}-${item.id}`}   // 👈 re-trigger animation on filter
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                 >
                     <div>
-                    <figure>
+                    <figure data-gsap>
                         <img src={item.img} alt={item.title} className="w-full" />
                     </figure>
-                    <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
+                    <h2 data-gsap dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                     </div>
                 </div>
                 ))}

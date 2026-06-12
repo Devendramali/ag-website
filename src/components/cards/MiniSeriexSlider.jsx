@@ -39,7 +39,7 @@ const MiniSeriexSlider = ({item}) => {
       }, [])
   return (<>
     <div className='miniserisslidermain'>
-        <h2>{item.heading}</h2>
+        <h2 data-gsap >{item.heading}</h2>
             <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
@@ -60,13 +60,13 @@ const MiniSeriexSlider = ({item}) => {
           >
             {item.slider.map((img, i) => (
               <SwiperSlide key={i}>
-                <div className="secard2">
+                <div data-gsap className="secard2">
                   <img src={img} alt="" />
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-          <a href="" className="btn3">
+          <a href="" data-gsap className="btn3">
             View More
           </a>
     </div>

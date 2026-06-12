@@ -9,7 +9,7 @@ const FounderWisdomVault = () => {
         <div className="breadcrumb  p-0">
                             <img src={breadcrunb} alt="" />
                             <div className="brudcont">
-                                <h2>Founder Wisdom Vault</h2>
+                                <h2 data-gsap>Founder Wisdom Vault</h2>
                             </div>
                         </div>
                         <FounderWisdomVaultFilter/>

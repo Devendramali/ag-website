@@ -98,7 +98,7 @@ const AGfream = () => {
   return (
     <div className="agfream" ref={sectionRef}>
 
-      <h2>Behind every strategy, there’s a story.</h2>
+      <h2 data-gsap>Behind every strategy, there’s a story.</h2>
             {/* MAIN IMAGE */}
       <div className='mainimg' ref={imgRef}>
         <img src={ag} alt="" />

@@ -30,7 +30,7 @@ const Articlesection = () => {
   return (
     <div className='articlesection'>
         <div className="container">
-            <h2 className="heading text-white">
+            <h2 data-gsap className="heading text-white">
                 The unfiltered corner of the internet. <br />
 Where I answer questions founders don’t ask publicly
 
@@ -38,13 +38,13 @@ Where I answer questions founders don’t ask publicly
               <div className="row gap-y-4">
                     {
                         rediit_list.map((item,index) => (
-                            <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div data-gsap className="col-lg-3 col-md-6 col-sm-12">
                                 <Redditcard  item={item}/>
                             </div>
                         ))
                     }
                 </div>
-                 <a href="#" class="btn3 glodenborder m-auto mt-5  graybg">Ask A Question <img src={redit} alt="" /></a>
+                 <a href="#" data-gsap class="btn3 glodenborder m-auto mt-5  graybg">Ask A Question <img src={redit} alt="" /></a>
       
         </div>
 

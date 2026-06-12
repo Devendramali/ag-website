@@ -46,7 +46,7 @@ const Series = () => {
     <>
       <div className='series'>
         <div className="container">
-          <p>
+          <p data-gsap>
             Every brand, every initiative, every experiment you <br />
             see here — was born from one shared belief:
           </p>
@@ -75,7 +75,7 @@ const Series = () => {
           >
             {[s1, s2, s3, s4, s1, s2, s3, s4].map((img, i) => (
               <SwiperSlide key={i}>
-                <div className="secard2">
+                <div className="secard2" data-gsap>
                   <img src={img} alt="" />
                 </div>
               </SwiperSlide>

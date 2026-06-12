@@ -70,9 +70,9 @@ mm.add("(max-width: 991px)", () => {
         {/* CARD 1 */}
         <div className="maincard cardw">
           <div className="cardhead">
-            <h2 className="num">01</h2>
-            <h2 className="headtext">Brand Soul Philosophy</h2>
-            <a href="#" className="btn3">Explore More 
+            <h2 data-gsap className="num">01</h2>
+            <h2 data-gsap className="headtext">Brand Soul Philosophy</h2>
+            <a data-gsap href="#" className="btn3">Explore More 
               <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="48" height="48" rx="24" fill="#052C27" fill-opacity="0.15"/>
                 <path d="M19 19H29M29 19V29M29 19L19 29" stroke="#052C27" stroke-width="1.6" stroke-linecap="square"/>
@@ -81,15 +81,15 @@ mm.add("(max-width: 991px)", () => {
           </div>
           <div className="cardbody">
             <div className="para1">
-            <p>Where behavioral science meets emotion. </p>
-           <p> From brand strategy and digital infrastructure to Image Engineering  </p>
-           <p> this is how we build brands that move people and grow with integrity.</p>
+            <p data-gsap>Where behavioral science meets emotion. </p>
+           <p data-gsap> From brand strategy and digital infrastructure to Image Engineering  </p>
+           <p data-gsap> this is how we build brands that move people and grow with integrity.</p>
 
             </div>
             <div className="boxgrid">
               <div className="row">
                 <div className="col-lg-4">
-                  <div className="box1">
+                  <div className="box1" >
                     <h3>Brand Identity setup</h3>
                     <figure>
                       <img src={card1} alt="" />
@@ -97,7 +97,7 @@ mm.add("(max-width: 991px)", () => {
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="box1">
+                  <div className="box1" >
                     <h3>Digital Infrastructure</h3>
                     <figure>
                       <img src={card2} alt="" />
@@ -105,7 +105,7 @@ mm.add("(max-width: 991px)", () => {
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="box1">
+                  <div className="box1" >
                     <h3>Image  reengineering</h3>
                     <figure>
                       <img src={card1} alt="" />
@@ -179,21 +179,21 @@ mm.add("(max-width: 991px)", () => {
             <div className="boxgrid">
               <div className="row">
                 <div className="col-lg-4">
-                  <div className="box1">
+                  <div className="box1" >
                     <figure>
                       <img src={card4} alt="" />
                     </figure>
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="box1">
+                  <div className="box1" >
                     <figure>
                       <img src={card5} alt="" />
                     </figure>
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="box1">
+                  <div className="box1" >
                     <figure>
                       <img src={card6} alt="" />
                     </figure>

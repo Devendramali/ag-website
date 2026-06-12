@@ -48,7 +48,7 @@ const Scrolltext = () => {
 
   return (
     <div className='scrolltext p-90 ' ref={containerRef}>
-      <div className="container">
+      <div className="container" data-gsap>
         <p>
 
           <span className="word">In</span>{" "}

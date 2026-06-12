@@ -9,12 +9,12 @@ const Manifesto = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
-                    <figure className='brandimg'>
+                    <figure className='brandimg' data-gsap>
                         <img src={imggrand1} alt="" />
                     </figure>
                 </div>
                 <div className="col-lg-8">
-                    <div className="brandcont leftbox">
+                    <div className="brandcont leftbox" data-gsap>
                         <h3>A <span>brand</span> is</h3>
                         <h3>not a logo.</h3>
                         <h3>It’s a living system </h3>
@@ -27,7 +27,7 @@ const Manifesto = () => {
             </div>
             <div className="row mt-100">
                    <div className="col-lg-8 ">
-                    <div className="brandcont right">
+                    <div className="brandcont right" data-gsap>
                         <h3>A <span>founder</span> is </h3>
                         <h3>not a title. </h3>   
                         <h3> It’s the discipline</h3> 
@@ -38,7 +38,7 @@ const Manifesto = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                    <figure className='brandimg'>
+                    <figure className='brandimg' data-gsap>
                         <img src={imggrand2} alt="" />
                     </figure>
                 </div>
@@ -46,12 +46,12 @@ const Manifesto = () => {
             </div>
             <div className="row mt-100">
                 <div className="col-lg-4">
-                    <figure className='brandimg'>
+                    <figure className='brandimg' data-gsap>
                         <img src={imggrand3} alt="" />
                     </figure>
                 </div>
                 <div className="col-lg-8">
-                    <div className="brandcont lastbox">
+                    <div className="brandcont lastbox" data-gsap>
                         <h3>          And <span>business</span> is </h3>
                         <h3>not about the market</h3>
                         <h3> It’s about </h3>

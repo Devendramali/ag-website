@@ -9,7 +9,7 @@ const ArticlePage = () => {
     <> <div className="breadcrumb">
                 <img src={breadcrunb} alt="" />
                 <div className="brudcont">
-                    <h2>Long-form thoughts for those who want to go deeper.</h2>
+                    <h2 data-gsap>Long-form thoughts for those who want to go deeper.</h2>
                 </div>
             </div>
 
